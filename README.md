@@ -87,3 +87,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
 | SROIE-document-parsing | Contains 1000 complete scanned receipt images. Each receipt image includes approximately four key text fields for KIE. | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/hf-tuner/SROIE-document-parsing) [![GitHub](https://img.shields.io/github/stars/zzzDavid/ICDAR-2019-SROIE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zzzDavid/ICDAR-2019-SROIE) |
 | finepdfs               | The largest public corpus sourced *from* PDFs, containing ~3 trillion tokens from 475M documents in 1733 languages. This is a text/table corpus (for Text Generation tasks), not raw PDF images for OCR. | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/HuggingFaceFW/finepdfs) |
 
+
+## Contributing
+We welcome contributions from the community and encourage pull requests to help keep this project up to date. Please do not hesitate to contact me at ylliu@hust.edu.cn
+ if you need any assistance.
