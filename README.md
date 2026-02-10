@@ -12,6 +12,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
 - [Benchmarks and Evaluation](#-benchmarks-and-evaluation)
 
 ## 📄 Visual Text Parsing
+##### End-to-end
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.20552) | `DeepSeek-OCR 2` | DeepSeek-AI | DeepSeek-OCR 2: Visual Causal Flow | [![GitHub Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR-2?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/deepseek-ai/DeepSeek-OCR-2) | Jan. 2026 |
