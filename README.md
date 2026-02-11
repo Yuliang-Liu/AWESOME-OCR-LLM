@@ -18,6 +18,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
   - [📄 Reading Order Prediction](#-reading-order-prediction)
   - [📄 Mathematical Expression Recognition](#-mathematical-expression-recognition)
   - [📄 Table Understanding](#-table-understanding)
+  - [📄 Table Recognition](#-table-recognition)
   - [📄 Chart Understanding](#-chart-understanding)
   - [📄 Scene Text Spotting](#-scene-text-spotting)
 - [Contributing](#contributing)
@@ -136,6 +137,10 @@ A curated survey of OCR in the era of large language models, covering visual tex
 |:-:|:-:|:-:|:-:|:-:|:-:|
 
 ### 📄 Table Understanding
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Table Recognition
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 
