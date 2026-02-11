@@ -9,6 +9,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
 - [Overview](#overview)
 - [🎉 News](#-news)
 - [📖 Contents](#-contents)
+- [🔍 Emerging Trends](#-emerging-trends)
 - [📄 Visual Text Parsing](#-visual-text-parsing)
 - [📄 Visual Text Understanding](#-visual-text-understanding)
 - [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
@@ -22,7 +23,17 @@ A curated survey of OCR in the era of large language models, covering visual tex
   - [📄 Scene Text Spotting](#-scene-text-spotting)
 - [Contributing](#contributing)
 
+## 🔍 Emerging Trends
+Emerging Trends (2023–2026)
+- End-to-end VLM-based parsing replaces modular OCR pipelines.
+- Reinforcement learning for layout and reading order modeling.
+- OCR-free document understanding models.
+- Scaling down: compact document VLMs under 1B parameters.
+- Document agents and autonomous reasoning over PDFs.
+
 ## 📄 Visual Text Parsing
+Visual text parsing focuses on converting visually complex documents into structured, machine-readable representations. In the LLM era, parsing is no longer a pipeline of isolated modules, but increasingly unified within end-to-end VLM architectures.
+
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.06402) | `MeDocVL` | Ping An Property | MeDocVL: A Visual Language Model for Medical Document Understanding and Parsing | [![GitHub Stars](https://img.shields.io/github/stars/Dejavuvvw/MeDocVL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Dejavuvvw/MeDocVL)  | Feb. 2026 |
