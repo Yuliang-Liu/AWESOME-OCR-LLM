@@ -94,6 +94,8 @@ Visual text parsing focuses on converting visually complex documents into struct
 
 
 ## 📄 Visual Text Understanding
+Visual text understanding extends beyond structural parsing to semantic comprehension and reasoning over visually rich documents.
+
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.05163)  | `DocDancer` | Peking University | DocDancer: Towards Agentic Document-Grounded Information Seeking | --- | Jan. 2026 |
@@ -173,6 +175,8 @@ Visual text parsing focuses on converting visually complex documents into struct
 
 
 ## 📄 Benchmarks and Evaluation
+Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
+
 | Venue | Benchmark Name | Description  | Link | Date |
 |:-:|:-:|:-:|:-:|:-:|
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.05218) | `MonkeyDoc` | A large-scale document parsing dataset containing 4.5 million bilingual instances across more than ten document types, designed under the Structure-Recognition-Relation paradigm to support structure detection, content recognition, and relation prediction in unified end-to-end document modeling. | [![ModelScope](https://img.shields.io/badge/ModelScope-dataset-6246EA?style=for-the-badge)](https://www.modelscope.cn/datasets/zenosai/MonkeyDoc) [![GitHub Stars](https://img.shields.io/github/stars/Yuliang-Liu/MonkeyOCR?style=for-the-badge&logo=github&label=GitHub&color=black&cacheSeconds=3600)](https://github.com/Yuliang-Liu/MonkeyOCR) | Jan. 2026 |
@@ -211,6 +215,7 @@ Visual text parsing focuses on converting visually complex documents into struct
 | <a href="https://link.springer.com/article/10.1007/s11432-024-4235-6"><img src="./figs/SC-logo.png" width="80"></a> | `OCRBench` | A comprehensive OCR evaluation benchmark for large multimodal models, covering 29 datasets across diverse text-related visual tasks including text recognition, scene text VQA, document VQA, key information extraction, and handwritten mathematical expression recognition. It evaluates multilingual, handwritten, non-semantic, and formula-level text understanding to systematically assess OCR capabilities in the LMM era. | [![GitHub Stars](https://img.shields.io/github/stars/Yuliang-Liu/MultimodalOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Yuliang-Liu/MultimodalOCR) | May 2023 |
 
 ## 📄 Specialized Model
+Beyond general document parsing, OCR research increasingly addresses specialized symbol systems and vertical domains, including charts, formulas, geometry, GUI, and engineering drawings. These domains require fine-grained perception, structural modeling, and domain-aware reasoning that often exceed generic OCR capabilities. While large multimodal models show promising generalization, domain-specific constraints and high-precision requirements continue to motivate hybrid approaches combining foundation models with expert modules.
 
 ### 📄 Document Dewarping
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
