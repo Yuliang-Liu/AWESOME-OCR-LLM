@@ -324,6 +324,9 @@ A curated survey of OCR in the era of large language models, covering visual tex
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2002.10200) | `ABCNet` | South China University of Technology | ABCNet: Real-time Scene Text Spotting with Adaptive Bezier-Curve Network | [![GitHub Stars](https://img.shields.io/github/stars/aim-uofa/AdelaiDet?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/aim-uofa/AdelaiDet) | Feb. 2020 |
 
 
-## Contributing
-We welcome contributions from the community and encourage pull requests to help keep this project up to date. Please do not hesitate to contact us or open an issue
- if you need any assistance.
+## All Thanks To Our Contributors
+
+<a href="https://github.com/Yuliang-Liu/OCR-LLM-ERA/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/OCR-LLM-ERA" />
+</a>
+We welcome contributions from the community and encourage pull requests to help keep this project up to date. Suggestions, feedback, and corrections are always welcome — please feel free to share them anytime!
