@@ -12,6 +12,13 @@ A curated survey of OCR in the era of large language models, covering visual tex
 - [📄 Visual Text Parsing](#-visual-text-parsing)
 - [📄 Visual Text Understanding](#-visual-text-understanding)
 - [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
+- [📄 Specialized Model](#-specialized-model)
+  - [📄 Document Dewarping](#-document-dewarping)
+  - [📄 Physical Structure Analysis](#-physical-structure-analysis)
+  - [📄 Reading Order Prediction](#-reading-order-prediction)
+  - [📄 Mathematical Expression Recognition](#-mathematical-expression-recognition)
+  - [📄 Table Understanding](#-table-understanding)
+  - [📄 Scene Text Spotting](#-scene-text-spotting)
 - [Contributing](#contributing)
 
 ## 📄 Visual Text Parsing
@@ -101,6 +108,36 @@ A curated survey of OCR in the era of large language models, covering visual tex
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.21311) | `MMDocBench` | An OCR-free document understanding benchmark for evaluating fine-grained visual perception and reasoning in large vision-language models. It defines 15 tasks with 4,338 QA pairs and 11,353 supporting regions across diverse document types including research papers, receipts, financial reports, tables, charts, and infographics. | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/next-tat/MMDocBench) [![GitHub Stars](https://img.shields.io/github/stars/fengbinzhu/MMDocBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/fengbinzhu/MMDocBench) | Oct. 2024 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.14295) | `Fox-benchmark` | A bilingual fine-grained multi-page document understanding benchmark with 9 sub-tasks (page OCR, line-level OCR, color-guided OCR, region-level OCR/translation/summary, multi-page multi-region OCR, cross-page VQA). It contains 112 English pages and 100 Chinese pages (single/multi-column; >1,000 words per page), plus an additional 200 rendered interleaved pages for in-document figure caption evaluation. | [![GitHub Stars](https://img.shields.io/github/stars/ucaslcl/Fox?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ucaslcl/Fox) | May 2024 |
 | <a href="https://link.springer.com/article/10.1007/s11432-024-4235-6"><img src="./figs/SC-logo.png" width="80"></a> | `OCRBench` | A comprehensive OCR evaluation benchmark for large multimodal models, covering 29 datasets across diverse text-related visual tasks including text recognition, scene text VQA, document VQA, key information extraction, and handwritten mathematical expression recognition. It evaluates multilingual, handwritten, non-semantic, and formula-level text understanding to systematically assess OCR capabilities in the LMM era. | [![GitHub Stars](https://img.shields.io/github/stars/Yuliang-Liu/MultimodalOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Yuliang-Liu/MultimodalOCR) | May 2023 |
+
+## 📄 Specialized Model
+
+### 📄 Document Dewarping
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Physical Structure Analysis
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Reading Order Prediction
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Mathematical Expression Recognition
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Table Understanding
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Chart Understanding
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+### 📄 Scene Text Spotting
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
 
 
 
