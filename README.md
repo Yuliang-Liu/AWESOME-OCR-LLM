@@ -174,7 +174,11 @@ A curated survey of OCR in the era of large language models, covering visual tex
 ### 📄 Reading Order Prediction
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.10258) | `XY-cut++` | Tianjin University | XY-Cut++: Advanced Layout Ordering via Hierarchical Mask Mechanism on a Novel Benchmark | - | Apr. 2025 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2409.19672) | `ROOR` | Fudan University | Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/chongzhangFDU/ROOR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/chongzhangFDU/ROOR) | Sep. 2024 |
+| <a href="https://aclanthology.org/2023.emnlp-main.846/"><img src="./figs/EMNLP-logo.png" width="80"></a> | `Reading Order Matters` | Fudan University | Reading Order Matters: Information Extraction from Visually-rich Documents by Token Path Prediction | [![GitHub Stars](https://img.shields.io/github/stars/chongzhangFDU/Token-Path-Prediction-Datasets?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/chongzhangFDU/Token-Path-Prediction-Datasets) | Dec. 2023 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2108.11591) | `LayoutReader` | University of California, San Diego+Microsoft Research Asia| LayoutReader: Pre-training of Text and Layout for Reading Order Detection | - | Aug. 2021 |
+| <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548112"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `LayoutLMv3` | Sun Yat-sen University | LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/unilm?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/microsoft/unilm/tree/master/layoutlmv3) | Oct. 2022 |
 ### 📄 Mathematical Expression Recognition
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
