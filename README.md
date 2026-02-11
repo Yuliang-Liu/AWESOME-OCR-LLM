@@ -1,5 +1,6 @@
 ## Overview
-A curated survey of OCR in the era of large language models, covering visual text parsing, understanding, benchmarks, challenges, and perspective. 
+A curated survey of OCR in the era of large language models, covering visual text parsing, understanding, benchmarks, challenges, and perspective. We focus on research from the past five years (2021–2026).
+
 
 
 ## 🎉 News
