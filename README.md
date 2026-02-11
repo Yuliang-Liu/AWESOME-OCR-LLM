@@ -32,6 +32,13 @@ Emerging Trends (2023–2026)
 - Scaling down: compact document VLMs under 1B parameters.
 - Document agents and autonomous reasoning over PDFs.
 
+## 📊 Statistics (Updated Feb 2026)
+
+- 50+ Visual Text models
+- 95+ Visual Text Understanding models
+- 30+ Benchmarks
+- 30+ Specialized Models
+- 
 ## 📄 Visual Text Parsing
 Visual text parsing focuses on converting visually complex documents into structured, machine-readable representations. In the LLM era, parsing is no longer a pipeline of isolated modules, but increasingly unified within end-to-end VLM architectures.
 
@@ -341,8 +348,8 @@ Visual text parsing focuses on converting visually complex documents into struct
 
 ## All Thanks To Our Contributors
 
-<a href="https://github.com/Yuliang-Liu/AWESOME-OCR-LLM-IN-ERA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AWESOME-OCR-LLM-IN-ERA" />
+<a href="https://github.com/Yuliang-Liu/AWESOME-OCR-LLM/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AWESOME-OCR-LLM" />
 </a>
 
 We welcome contributions from the community and encourage pull requests to help keep this project up to date. Suggestions, feedback, and corrections are always welcome — please feel free to share them anytime!
