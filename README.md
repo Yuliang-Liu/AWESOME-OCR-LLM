@@ -145,6 +145,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.01733) | `DocFormerv2` | AWS AI Labs |DocFormerv2: Local Features for Document Understanding |---| Jun. 2023|
 | <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/6dcf277ea32ce3288914faf369fe6de0-Paper-Conference.pdf"><img src="./figs/NeurIPS-logo.png" width="80"></a> | `LLaVA` | University of Wisconsin–Madison | Visual Instruction Tuning | [![GitHub Stars](https://img.shields.io/github/stars/haotian-liu/LLaVA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/haotian-liu/LLaVA) | Apr. 2023 |
 | <a href="https://arxiv.org/abs/2111.15664"><img src="./figs/ECCV-logo.svg" width="80"></a> | `Donut` | Naver CLOVA | OCR-free Document Understanding Transformer | [![GitHub Stars](https://img.shields.io/github/stars/clovaai/donut?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/clovaai/donut) | Nov. 2021 |
+| <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9633153"><img src="./figs/TPAMI-logo.jpg" width="80"></a> | `SMA` | Northwestern Polytechnical University | Structured Multimodal Attentions for TextVQA | [![GitHub Stars](https://img.shields.io/github/stars/ChenyuGAO-CS/SMA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ChenyuGAO-CS/SMA) | Nov. 2021 |
 
 
 
