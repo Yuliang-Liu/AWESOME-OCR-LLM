@@ -20,7 +20,7 @@ A curated survey (coming soon) of OCR in the era of large language models, cover
   - [📄 Reading Order Prediction](#-reading-order-prediction)
   - [📄 Mathematical Expression Recognition](#-mathematical-expression-recognition)
   - [📄 Geometry Problem-solving](#-geometry-problem-solving)
-  - [📄 Table Understanding]()
+  - [📄 Table Understanding](#-table-understanding)
   - [📄 Chart Understanding](#-chart-understanding)
   - [📄 Scene Text Spotting](#-scene-text-spotting)
 - [Contributing](#contributing)
