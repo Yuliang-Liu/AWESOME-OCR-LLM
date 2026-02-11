@@ -1,5 +1,5 @@
 ## Overview
-A curated survey of OCR in the era of large language models, covering visual text parsing, understanding, benchmarks, challenges, and perspective. Paper is coming soon. 
+A curated survey of OCR in the era of large language models, covering visual text parsing, understanding, benchmarks, challenges, and perspective. 
 
 
 ## 🎉 News
@@ -95,5 +95,5 @@ A curated survey of OCR in the era of large language models, covering visual tex
 
 
 ## Contributing
-We welcome contributions from the community and encourage pull requests to help keep this project up to date. Please do not hesitate to contact me at ylliu@hust.edu.cn
+We welcome contributions from the community and encourage pull requests to help keep this project up to date. Please do not hesitate to contact us or open an issue
  if you need any assistance.
