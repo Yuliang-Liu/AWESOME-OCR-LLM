@@ -326,8 +326,8 @@ A curated survey of OCR in the era of large language models, covering visual tex
 
 ## All Thanks To Our Contributors
 
-<a href="https://github.com/Yuliang-Liu/OCR-LLM-ERA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/OCR-LLM-ERA" />
+<a href="https://github.com/Yuliang-Liu/AWESOME-OCR-LLM-IN-ERA/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AWESOME-OCR-LLM-IN-ERA" />
 </a>
 
 We welcome contributions from the community and encourage pull requests to help keep this project up to date. Suggestions, feedback, and corrections are always welcome — please feel free to share them anytime!
