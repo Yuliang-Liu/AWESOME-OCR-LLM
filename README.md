@@ -23,7 +23,6 @@ A curated survey (coming soon) of OCR in the era of large language models, cover
   - [📄 Table Understanding](#-table-understanding)
   - [📄 Chart Understanding](#-chart-understanding)
   - [📄 Scene Text Spotting](#-scene-text-spotting)
-- [Contributing](#contributing)
 
 ## 🔍 Emerging Trends
 Emerging Trends (2023–2026)
