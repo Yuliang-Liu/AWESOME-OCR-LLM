@@ -1,5 +1,5 @@
 ## Overview
-A curated survey of OCR in the era of large language models, covering visual text parsing, understanding, benchmarks, challenges, and perspective. We focus on research from the past five years (2021–2026).
+A curated survey (coming soon) of OCR in the era of large language models, covering visual text parsing and understanding, benchmarks, challenges, and future perspectives, with a focus on research from the past five years (2021–2026).
 
 
 
@@ -30,15 +30,14 @@ Emerging Trends (2023–2026)
 - Reinforcement learning for layout and reading order modeling.
 - OCR-free document understanding models.
 - Scaling down: compact document VLMs under 1B parameters.
+- Long-doc OCR is a scaling problem of tokens and consistency, not just context length.
+- Structure (layout + logic) is the new accuracy.
+- Generative OCR shifts the core risk from “misrecognition” to “hallucination”.
+- Benchmarks are moving toward executable  evaluation.
 - Document agents and autonomous reasoning over PDFs.
+- Document Agents need recoverability, not one-shot perfection.
 
-## 📊 Statistics (Updated Feb 2026)
 
-- 50+ Visual Text models
-- 95+ Visual Text Understanding models
-- 30+ Benchmarks
-- 30+ Specialized Models
-- 
 ## 📄 Visual Text Parsing
 Visual text parsing focuses on converting visually complex documents into structured, machine-readable representations. In the LLM era, parsing is no longer a pipeline of isolated modules, but increasingly unified within end-to-end VLM architectures.
 
