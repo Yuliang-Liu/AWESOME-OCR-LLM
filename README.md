@@ -179,7 +179,7 @@ A curated survey of OCR in the era of large language models, covering visual tex
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 
-### 📄 Table Understanding
+### 📄 Geometry Problem-solving
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 
