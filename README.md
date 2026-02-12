@@ -385,10 +385,5 @@ Beyond general document parsing, OCR research increasingly addresses specialized
 
 
 
-## All Thanks To Our Contributors
-
-<a href="https://github.com/Yuliang-Liu/AWESOME-OCR-LLM/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AWESOME-OCR-LLM" />
-</a>
-
+## Contributing
 We welcome contributions from the community and encourage pull requests to help keep this project up to date. Suggestions, feedback, and corrections are always welcome — please feel free to share them anytime!
