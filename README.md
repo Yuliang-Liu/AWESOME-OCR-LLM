@@ -21,10 +21,11 @@ A curated survey (coming soon) of OCR in the era of large language models, cover
 <a id="daily-papers-section"></a>
 ## 🔭 Daily Papers (2026-06-20)
 
+<!--
 ### Document Parsing
 
 _No new papers in this update._
-
+-->
 ### Document Understanding
 
 | Venue                                                                                                                                  | Name           | Primary affiliation | Title                                                                            | GitHub | Date      |
