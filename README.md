@@ -19,9 +19,7 @@ A curated survey (coming soon) of OCR in the era of large language models, cover
 - [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
 
 <a id="daily-papers-section"></a>
-## 🔭 Daily Papers
-
-_Last updated: 2026-06-20_
+## 🔭 Daily Papers (2026-06-20)
 
 ### Document Parsing
 
