@@ -1,10 +1,16 @@
 ## Overview
 
-A curated survey (coming soon) of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–2026).
+A curated, continuously updated reading list of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–2026).
+
+**Scope.** This list tracks OCR in the LLM era: work that applies large vision-language or multimodal models to text-rich images and documents (parsing, understanding, benchmarks, and specialized text tasks). It is not a general document-AI list, a generic MLLM list, or a classical OCR-1.0 list; such work appears only when it directly bears on text-rich visual understanding.
+
+**A note on evaluation.** Most recent systems are released as technical reports with self-reported numbers, private test sets, and inconsistent protocols, so cross-paper scores are rarely comparable in a rigorous sense. We list results as reported and, where known, indicate the evaluation basis. The field still lacks a unified, contamination-resistant, reproducible benchmark, and we see building one as a prerequisite for trustworthy leaderboard claims.
 
 ## 🎉 News
 
 - **[2026-2-11]** 🔥 We release an open-source resource to help the community easily track recent OCR research!
+
+**Contributing.** PRs welcome. One row per model, newest first; please include venue/date, affiliation, and a code or model link. Last updated: 2026-06.
 
 ## 📖 Contents
 - [Overview](#overview)
