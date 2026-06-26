@@ -1,10 +1,4 @@
-## Overview
 
-A curated, continuously updated reading list of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–2026).
-
-**Scope.** This list tracks OCR in the LLM era: work that applies large vision-language or multimodal models to text-rich images and documents (parsing, understanding, benchmarks, and specialized text tasks). It is not a general document-AI list, a generic MLLM list, or a classical OCR-1.0 list; such work appears only when it directly bears on text-rich visual understanding.
-
-**A note on evaluation.** Most recent systems are released as technical reports with self-reported numbers, private test sets, and inconsistent protocols, so cross-paper scores are rarely comparable in a rigorous sense. We list results as reported and, where known, indicate the evaluation basis. The field still lacks a unified, contamination-resistant, reproducible benchmark, and we see building one as a prerequisite for trustworthy leaderboard claims.
 
 ## 🎉 News
 
@@ -23,6 +17,14 @@ A curated, continuously updated reading list of OCR in the era of large language
 - [📄 Visual Text Generation](#-visual-text-generation)
 - [📄 Specialized Model](#-specialized-model)
 - [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
+
+## Overview
+
+A curated, continuously updated reading list of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–2026).
+
+**Scope.** This list tracks OCR in the LLM era: work that applies large vision-language or multimodal models to text-rich images and documents (parsing, understanding, benchmarks, and specialized text tasks). It is not a general document-AI list, a generic MLLM list, or a classical OCR-1.0 list; such work appears only when it directly bears on text-rich visual understanding.
+
+**A note on evaluation.** Most recent systems are released as technical reports with self-reported numbers, private test sets, and inconsistent protocols, so cross-paper scores are rarely comparable in a rigorous sense. We list results as reported and, where known, indicate the evaluation basis. The field still lacks a unified, contamination-resistant, reproducible benchmark, and we see building one as a prerequisite for trustworthy leaderboard claims.
 
 <a id="daily-papers-section"></a>
 ## 🔭 Daily Papers (2026-06-24)
@@ -51,6 +53,7 @@ A curated, continuously updated reading list of OCR in the era of large language
 | Venue                                                                                                                                  | Name                  | Primary affiliation | Title                                                                                  | GitHub                                                                                                                                                                             | Date      |
 |:---------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:--------------------:|:---------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.24526) | `AGORA` | Fudan University | AGORA: An Archive-Grounded Benchmark for Agentic Workplace Document Reasoning | - | Jun. 2026 |
+
 
 ## 🔍 Emerging Trends
 
