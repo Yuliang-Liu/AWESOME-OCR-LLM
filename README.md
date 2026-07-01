@@ -1,30 +1,3 @@
-## 🎉 News
-
-- **[2026-2-11]** 🔥 We release an open-source resource to help the community easily track recent OCR research!
-
-**Contributing.** PRs welcome. One row per model, newest first; please include venue/date, affiliation, and a code or model link.
-
-## 📖 Contents
-
-- [Overview](#overview)
-- [🎉 News](#-news)
-- [📖 Contents](#-contents)
-- [🔭 Daily Papers](#daily-papers-section)
-- [🔍 Emerging Trends](#-emerging-trends)
-- [📄 Document Parsing](#-document-parsing)
-- [📄 Document Understanding](#-document-understanding)
-- [📄 Visual Text Generation](#-visual-text-generation)
-- [📄 Specialized Model](#-specialized-model)
-- [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
-
-## Overview
-
-A curated, continuously updated reading list of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–now).
-
-**Scope.** This list tracks OCR in the LLM era: work that applies large vision-language or multimodal models to text-rich images and documents (parsing, understanding, benchmarks, and specialized text tasks). It is not a general document-AI list, a generic MLLM list, or a classical OCR-1.0 list; such work appears only when it directly bears on text-rich visual understanding.
-
-**A note on evaluation.** Most recent systems are released as technical reports with self-reported numbers, private test sets, and inconsistent protocols, so cross-paper scores are rarely comparable in a rigorous sense. We list results as reported and, where known, indicate the evaluation basis. The field still lacks a unified, contamination-resistant, reproducible benchmark, and we see building one as a prerequisite for trustworthy leaderboard claims.
-
 <a id="daily-papers-section"></a>
 
 ## 🔭 Daily Papers (2026-06-30)
@@ -47,6 +20,35 @@ A curated, continuously updated reading list of OCR in the era of large language
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.28780) | `KG4VD` | National Taiwan University | Multimodal Graph RAG for Long-range Visually Rich Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/AI-Application-and-Integration-Lab/KG4VD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/AI-Application-and-Integration-Lab/KG4VD) | Jun. 2026 |
 
 > **KG4VD** — Introduces multimodal knowledge graph construction for visually rich documents and the DLVQA benchmark for holistic document-level VQA.
+>
+> 
+## 📖 Contents
+
+- [Overview](#overview)
+- [🎉 News](#-news)
+- [📖 Contents](#-contents)
+- [🔭 Daily Papers](#daily-papers-section)
+- [🔍 Emerging Trends](#-emerging-trends)
+- [📄 Document Parsing](#-document-parsing)
+- [📄 Document Understanding](#-document-understanding)
+- [📄 Visual Text Generation](#-visual-text-generation)
+- [📄 Specialized Model](#-specialized-model)
+- [📄 Benchmarks and Evaluation](#-benchmarks-and-evaluation)
+
+
+## Overview
+
+A curated, continuously updated reading list of OCR in the era of large language models, covering document parsing and understanding, visual text generation, benchmarks, challenges, and future perspectives, with a focus on research around the past five years (2021–now).
+
+**Scope.** This list tracks OCR in the LLM era: work that applies large vision-language or multimodal models to text-rich images and documents (parsing, understanding, benchmarks, and specialized text tasks). It is not a general document-AI list, a generic MLLM list, or a classical OCR-1.0 list; such work appears only when it directly bears on text-rich visual understanding.
+
+**A note on evaluation.** Most recent systems are released as technical reports with self-reported numbers, private test sets, and inconsistent protocols, so cross-paper scores are rarely comparable in a rigorous sense. We list results as reported and, where known, indicate the evaluation basis. The field still lacks a unified, contamination-resistant, reproducible benchmark, and we see building one as a prerequisite for trustworthy leaderboard claims.
+
+## 🎉 News
+
+- **[2026-2-11]** 🔥 We release an open-source resource to help the community easily track recent OCR research!
+
+**Contributing.** PRs welcome. One row per model, newest first; please include venue/date, affiliation, and a code or model link.
 
 ## 
 
