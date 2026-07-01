@@ -941,6 +941,3 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 We welcome contributions from the community and encourage pull requests to help keep this project up to date. Suggestions, feedback, and corrections are always welcome — please feel free to share them anytime!
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Yuliang-Liu/AWESOME-OCR-LLM&type=Date)](https://star-history.com/#Yuliang-Liu/AWESOME-OCR-LLM&Date)
