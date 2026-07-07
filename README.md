@@ -1,14 +1,52 @@
+
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-07-03)
+## 🔭 Daily Papers (2026-07-07)
 
-### Document Understanding
+### Document Parsing 
 
-| Venue                                                                                                                                  | Name             | Primary affiliation | Title                                                                                    | GitHub | Date      |
-|:--------------------------------------------------------------------------------------------------------------------------------------:|:----------------:|:-------------------:|:----------------------------------------------------------------------------------------:|:------:|:---------:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.01420) | `MultAttnAttrib` | —                   | MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering | -      | Jul. 2026 |
+|                                                                 Venue                                                                  |       Name       | Primary affiliation | Title                                                                                              | GitHub | Date |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:----------------:|:-------------------:|:---------------------------------------------------------------------------------------------------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04884) | `HunyuanOCR-1.5` | Tencent | HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better                                      | [![HuggingFace Stars](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/tencent/HunyuanOCR) [![GitHub Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tencent-Hunyuan/HunyuanOCR) | Jul. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04636) |   `SAYRE`        | Alibaba | Enhancing Large Multimodal Models in Key Information Extraction via Scene-Aware Document Synthesis | - | Jul. 2026 |
 
-> **MultAttnAttrib** — A training-free attribution method that leverages attention heads and calibrated thresholds to locate source evidence in multimodal documents; introduces MultAttrEval, the first benchmark for fine-grained multimodal attribution in long-form documents
+> **HunyuanOCR-1.5** — A lightweight end-to-end OCR-specialized VLM that unifies document parsing, text spotting, information extraction, text-image translation, and multi-image document understanding within a single model.
+> 
+> **SAYRE** — A scene-aware document synthesis framework for generating scalable KIE training data without hand-crafted template design.
+
+> 
+
+### Document Understanding 
+
+|                                                                 Venue                                                                  |    Name     | Primary affiliation  | Title | GitHub | Date |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------:|:----- |:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04625) | `HiEvi-RAG` |         USTC         | Hierarchical Evidence-Driven Reasoning for Long Document Understanding | - | Jul. 2026 |
+
+> **HiEvi-RAG** — A hierarchical, evidence-driven multimodal RAG framework for closed-domain document understanding.
+
+> 
+
+### Benchmarks and Evaluation
+
+|                                                                 Venue                                                                  | Name | Primary affiliation | Title | GitHub | Date |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:----:|:-------------------:|:----- |:------:|:----:|
+|                       <a href="https://arxiv.org/abs/2607.02956"><img src="./figs/ICML-logo.png" width="80"></a>                       | `MORE` | USTC | MORE: A Multilingual Document Parsing Benchmark and Evaluation | [![GitHub Stars](https://img.shields.io/github/stars/zimoqingfeng/MORE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zimoqingfeng/MORE) | Jul. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.03650) | `ClinOCR-Bench` | UTHealth Houston | ClinOCR-Bench: A Comprehensive Clinical Scanned Document Dataset for Optical Character Recognition Model Evaluation | [![GitHub Stars](https://img.shields.io/github/stars/ClinOCR-Bench/ClinOCR-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ClinOCR-Bench/ClinOCR-Bench) | Jul. 2026 |
+|                       <a href="https://arxiv.org/abs/2607.04147"><img src="./figs/ECCV-logo.svg" width="80"></a>                       | `HCSU` | Zhejiang University | HCSU: A Dataset and Benchmark for Fine-Grained Historical Calligraphy Style Understanding | [![HuggingFace Stars](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/Tongji209/HCSU) | Jul. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.03006) | `PosterHarness` | Peking University | PosterHarness: Turning Scientific Poster Generation into an Auditable Instruction-Following Benchmark | - | Jul. 2026 |
+
+> **MORE** — A comprehensive multilingual document parsing benchmark covering diverse scripts and layouts.
+> 
+> **ClinOCR-Bench** — The first public clinical OCR benchmark with 384 scanned medical documents across 6 artifact conditions (normal, handwriting, poor quality, rotation, tables, mixed).
+> 
+> **HCSU** — A fine-grained benchmark for evaluating LVLMs on historical calligraphy style perception, addressing a critical gap in cultural heritage AI with hierarchical style annotations across multiple calligraphy traditions.
+>
+> **PosterHarness** — An auditable harness that evaluates text-rich image models on scientific poster generation by checking legibility, aspect ratios, and hallucinated scientific figures.
+
+
+
+>
+
 
 ## 📖 Contents
 
@@ -117,6 +155,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 | Venue                                                                                                                                                                                                                            | Name                                 | Primary affiliation                          | Title                                                                                                                              | GitHub                                                                                                                                                                                                                                                                                                                   | Date       |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:--------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.01420) | `MultAttnAttrib` | —                   | MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering | -      | Jul. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.25906)                                                                                           | `OracleAnalyser`                     | NUDT                                         | OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training                               | -                                                                                                                                                                                                                                                                                                                        | Jun. 2026  |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.26122)                                                                                           | `DocArena`                           | Adobe Research                               | DocArena: Turning Raw Documents into Controllable Training Environments for Document Search Agents                                 | -                                                                                                                                                                                                                                                                                                                        | Jun. 2026  |
 | <a href="https://arxiv.org/abs/2606.24602"><img src="./figs/ECCV-logo.svg" width="80"></a>                                                                                                                                       | `ViTexQA`                            | Meituan                                      | ViTexQA: A Multi-Frame Temporal Perception Dataset for Video Text Question Answering                                               | [![GitHub Stars](https://img.shields.io/github/stars/ZhentaoGuo/ViTexQA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ZhentaoGuo/ViTexQA) [![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ViTexQA-yellow)](https://huggingface.co/datasets/Zhentao1/ViTexQA) | Jun. 2026  |
