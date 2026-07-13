@@ -1,7 +1,7 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-07-10)
+## 🔭 Daily Papers (2026-07-13)
 
 ### Document Parsing 
 
@@ -12,6 +12,13 @@
 
 > **Infinity-Parser2** — A large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for end-to-end document parsing, addressing the persistent scarcity of faithfully annotated parsing corpora. 
 
+### Benchmarks and Evaluation
+
+| Venue | Name |    Primary affiliation     | Title | GitHub | Date |
+|:-----:|:----:|:--------------------------:|:-----:|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.09328) | `WILDTRACE` |       HKUST&Alibaba        | WILDTRACE: Benchmarking Natural Evidence Trails in Long-Context Reasoning | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/CinderD/wildtrace) | Jul. 2026 |
+
+> **WILDTRACE** — A source-internal long-context multi-hop reasoning benchmark built from natural evidence trails.481 tasks over 214 naturally occurring long-form sources (incident reports, literary narratives) with 7 source-internal evidence geometries.
 
 
 ## 📖 Contents
