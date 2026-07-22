@@ -1,42 +1,23 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-07-21)
+## 🔭 Daily Papers (2026-07-22)
 
 ### Document Parsing
 
+| Venue                                                                                                                                  | Name          | Primary affiliation | Title                                               | Links                                                                                                                                                                                                                                                                                                     | Date      |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|:-------------------:|:---------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.18839) | `HPD-Parsing` | Baidu               | HPD-Parsing: Hierarchical Parallel Document Parsing | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/PaddlePaddle/HPD-Parsing) [![GitHub Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/PaddlePaddle/PaddleOCR) | Jul. 2026 |
 
-| Venue                                                                                                                                    | Name             | Primary affiliation  | Title                                                                                                                       | Links                                                                                                                                                                                                                    | Date      |
-|:----------------------------------------------------------------------------------------------------------------------------------------:|:----------------:|:--------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.16203) | `DocOCR-Eval` | University of Melbourne | DocOCR-Eval: A Correction-Based Framework for OCR Tool Selection Without Ground Truth | - | Jul. 2026 |
+> **HPD-Parsing** — A lightweight and high-throughput document parser built upon a hierarchical parallel decoding paradigm.HPD-Parsing replaces the traditional single autoregressive trajectory with a main layout branch for global coordination and concurrent local decoding branches for region-level content generation.
 
+### Document Understanding
 
-> **DocOCR-Eval** — An annotation-free framework for evaluating and ranking OCR tools without ground-truth labels, using multi-MLLM correction and iterative ranking to approximate annotation-based tool selection.
+| Venue                                                                                                                                  | Name      | Primary affiliation | Title                                                                              | Links                                                                                                                                            | Date      |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:---------:|:-------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.18917) | `TAP-RAG` | Tianjin University  | TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering | [![Anonymous Code](https://img.shields.io/badge/Anonymous-Code-gray?style=for-the-badge&logo=github)](https://anonymous.4open.science/r/TAP-RAG) | Jul. 2026 |
 
-
-
-### Visual Text Generation
-
-
-| Venue                                                                                                                                    | Name             |          Primary affiliation          | Title                                                                                                                       | Links                                                                                                                                                                                                                    | Date      |
-|:----------------------------------------------------------------------------------------------------------------------------------------:|:----------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.18091) | `SciForma` |     Microsoft & Peking University     | SciForma: Structure-Faithful Generation of Scientific Diagrams | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/SciForma?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/microsoft/SciForma) | Jul. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.17251) | `VecFontLLM` | Fuzhou University & Peking University | VecFontLLM: Anchor-Guided Direct Synthesis of Chinese Vector Fonts | - | Jul. 2026 |
-
-> **SciForma** — A framework for the structure-faithful generation of scientific methodology diagrams.Structure-faithful generation of scientific methodology diagrams, jointly constraining component rendering, directional relations, and textual annotations.
->
-> **VecFontLLM** — An anchor-guided multimodal large language model for direct few-shot synthesis of Chinese vector fonts.This work achieves high-quality few-shot synthesis of complex Chinese vector glyphs directly in the vector domain for the first time. 
-
-
-
-### Specialized Model
-
-
-|                                           Venue                                            | Name             | Primary affiliation  | Title                                                                                                                       | Links                                                                                                                                                                                                                    | Date      |
-|:------------------------------------------------------------------------------------------:|:----------------:|:--------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
-| <a href="https://arxiv.org/abs/2607.17849"><img src="./figs/The Innovation-logo.png" width="80"></a> | `AlphaOracle` | HUST | AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning | [![GitHub Stars](https://img.shields.io/github/stars/Yuliang-Liu/Open-Oracle?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Yuliang-Liu/Open-Oracle) | Jul. 2026 |
-
-> **AlphaOracle** — A comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology.AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework.
+> **TAP-RAG** — A task-aware policy-controlled framework for long-document multimodal QA. TAPC maps each query into an executable policy controlling graph diffusion, visual acquisition, fusion, structural operators, support checking, and abstention.
 
 
 
