@@ -1,42 +1,31 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-05)
+## 🔭 Daily Papers (2026-08-07)
+
+### Document Parsing
+
+
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.06146) | `PaDoc` | Tsinghua University | PaDoc: Layout-Grounded Parallel Decoding for Document Parsing | [![GitHub Stars](https://img.shields.io/github/stars/Longin-Yu/Padoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Longin-Yu/Padoc) | Aug. 2026 |
+
+> **PaDoc** — A layout-grounded document parser that factorizes sequential page decoding into concurrent layout-stream and content-branch generation within a single MLLM, improving valid-page throughput by 67--118% while retaining full-page context.
 
 ### Document Understanding
 
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03292) | `DocTrace` | Baidu | DocTrace: Towards Traceable Long Document VQA via Hierarchical Evidence Graph Reasoning | - | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.02833) | `CURV` | William & Mary | CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04424) | `ADOPD 2026` | Georgia Tech | Thinking with Anchors: Grounded and Efficient Document Reasoning | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/collections/adopd/thinking-with-anchors) [![GitHub Stars](https://img.shields.io/github/stars/SichenZhu/ADOPD2026?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/SichenZhu/ADOPD2026) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04726) | `VTS` | MBZUAI | When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04452) | `Q-CueGraph` | The University of Tokyo | Q-CueGraph: Query-Conditioned Visual Evidence Graphs for Multimodal Reasoning | - | Aug. 2026 |
 
-> **DocTrace** — Casts LongDocVQA as explicit evidence graph reasoning rather than implicit answer prediction, with a hierarchical framework that progressively localizes evidence, parses document structure, and performs graph-based reasoning.
+> **ADOPD 2026** — A reasoning-oriented extension of ADOPD that turns page decomposition into spatially grounded document understanding. ADOPD 2026 enriches page anchors inherited from ADOPD 2024 dataset with human-cleaned captions, semantic tags, and generated chain-of-thought (CoT) traces grounded to document regions.
+> 
+> **VTS** — Reveals that MLLMs suffer a semantic channel gap when task instructions move from text prompts into image pixels — even when OCR transcribes correctly — and introduces prompt-region grounding that aligns the question region with typed semantics, recovering accuracy without OCR or region metadata at inference.
 >
-> **CURV** — A curriculum learning framework that develops intrinsic visual reasoning capabilities by reformulating CQA as multi-step visual grounded reasoning, where each step coordinates logical reasoning with dynamic visual grounding through spatial attention concentration. 
-
-### Visual Text Generation
-
-
-|                                           Venue                                            | Name  | Primary affiliation | Title | GitHub | Date |
-|:------------------------------------------------------------------------------------------:|:-----:|:-------------------:|:------|:------:|:----:|
-| <a href="https://arxiv.org/abs/2608.03198"><img src="./figs/ECCV-logo.svg" width="80"></a> | onoff | GIST | Bridging Online and Offline Handwriting via Differentiable Physical Rendering | [![GitHub Stars](https://img.shields.io/github/stars/SeonmiP/onoff?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/SeonmiP/onoff) | Aug. 2026 |
-
-> **onoff** — a unified framework that bridges online and offline handwriting generation, consisting of a differentiable brush renderer, an online stroke generator, a brush parameter observer and a zero-shot offline image enhancer. 
-
-
-
-### Benchmarks & Evaluation
-
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03464) | `ChartAnno` | Fudan University | ChartAnno: Evaluating MLLMs for Chart Annotation Generation | - | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03884) | `BanglaWild` | IUT | BanglaWild: An In-the-Wild Bengali Scene Text Recognition Benchmark for OCR and Vision-Language Models | - | Aug. 2026 |
-
-> **ChartAnno** — A benchmark for evaluating MLLMs on chart annotation generation. It contains 1,200 real-world charts with paired code and annotation instructions across three levels of instruction specificity. 
->
-> **BanglaWild** — The first in-the-wild Bengali scene text recognition benchmark to pair dual verbatim/standard annotation with evaluation of both conventional OCR and generative VLMs on the same data.
+> **Q-CueGraph** — Externalizes the where-to-look decision in multimodal reasoning as an explicit evidence policy, building query-conditioned visual evidence graphs that unify text-rich images (reusable OCR/layout graph) and natural images behind the same selection, composition, and budgeting interface.
 
 ##
 
@@ -148,6 +137,8 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03292) | `DocTrace` | Baidu | DocTrace: Towards Traceable Long Document VQA via Hierarchical Evidence Graph Reasoning | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.02833) | `CURV` | William & Mary | CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.00765) | `RAGOCR` | Peking University | RAGOCR: Optical Compression of Retrieval-Augmented Text via Visual Representation | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.01211) | `VaRS-Doc` | SJTU | VaRS-Doc: Interpretation-Aware Variant Representations via Latent Self-Probing for Visual Document Retrieval | [![GitHub Stars](https://img.shields.io/github/stars/bokufa/VaRS-Doc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/bokufa/VaRS-Doc) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.01979) | `ET-Prune` | SJTU | ET-Prune: Evidence-Aware Dynamic Budgeting for Visual Token Pruning in Text-Rich MLLMs | [![GitHub Stars](https://img.shields.io/github/stars/Labyrinth0419/ET-Prune?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Labyrinth0419/ET-Prune) | Aug. 2026 |
@@ -514,6 +505,8 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 |                                                                 Venue                                                                  |          Benchmark Name          |                                                                                                                                                                                                     Description                                                                                                                                                                                                      |                                                                                                                                                                        Link                                                                                                                                                                         |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03464) | `ChartAnno` | A benchmark for evaluating MLLMs on chart annotation generation. It contains 1,200 real-world charts with paired code and annotation instructions across three levels of instruction specificity. | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03884) | `BanglaWild` | The first in-the-wild Bengali scene text recognition benchmark to pair dual verbatim/standard annotation with evaluation of both conventional OCR and generative VLMs on the same data.| - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.01792) |      `ConfBench`      | The first calibration-specific benchmark for key information extraction (KIE), built by applying 20 controlled degradation pipelines to a diverse document set. | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/amazon/ConfBench) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.01848) |      `VTC-Eval`       | Reveals that existing VTC evaluation protocols relying on downstream task performance fail to measure text preservation fidelity due to strong MLLM linguistic priors, and introduces a decoupled evaluation framework that isolates semantic retention from visual encoding quality. | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.00077) | `Evidence-Risk Audit` | Shows that correct answers can survive even when no retained token is traceable to the supporting OCR region, and proposes an evidence-risk audit coupling answer behavior with geometric token-origin provenance to catch this blind spot in token pruning evaluation. |  [![GitHub Stars](https://img.shields.io/github/stars/SouthWinter/spatial-provenance-audit?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/SouthWinter/spatial-provenance-audit) | Aug. 2026 |
