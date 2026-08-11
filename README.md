@@ -1,18 +1,23 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-10)
+## 🔭 Daily Papers (2026-08-11)
+
+### Document Parsing
+
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07917) | `TongGuOCR` | SCUT | TongGuOCR: A Layout-Aware and Token-Augmented OCR Framework for Chinese Historical Documents | [![GitHub Stars](https://img.shields.io/github/stars/jzzh2004/TongGuOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jzzh2004/TongGuOCR) | Aug. 2026 |
+
+> **TongGuOCR** — A layout-aware and token-augmented OCR framework for Chinese historical documents that builds locally coherent recognition blocks and augments transcription with character-level vocabulary expansion plus line-to-line displacement tokens, achieving 93.76 AR on the M5HisDoc benchmark.
 
 ### Document Understanding
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07067) | `DocMemo` | HIT, Shenzhen | DocMemo: Dynamic Evidence Discovery via Probabilistic Memory-Guided Retrieval for Multi-Modal Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/Harrygof/DocMemo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Harrygof/DocMemo) | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07006) | `ECF` | Beihang University | Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models? | [![GitHub Stars](https://img.shields.io/github/stars/wjkuser/ECF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/wjkuser/ECF) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07527) | `DocAtlas` | Wuhan University / Microsoft | DocAtlas: Long-Document Understanding as Mutable-State Interaction | - | Aug. 2026 |
 
-> **DocMemo** — A memory-guided framework that formulates long-document reasoning as dynamic evidence exploration, maintaining tri-level retrieval state (Document Schema, Page Belief, Question Episodic Memory) and continuously refining cross-round page selection through Bayesian belief updating with Thompson sampling.
->
-> **ECF** — Reveals that unconditionally passing more retrieved pages to diffusion language models harms answer accuracy due to semantic conflict, and proposes an entropy-based candidate filter for training-free selective evidence admission in visual RAG.
+> **DocAtlas** — Treats long-document understanding as mutable-state interaction through a document harness with search, reading, note-taking, and review tools under a fixed context budget.
 
 ##
 
@@ -124,6 +129,8 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07067) | `DocMemo` | HIT, Shenzhen | DocMemo: Dynamic Evidence Discovery via Probabilistic Memory-Guided Retrieval for Multi-Modal Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/Harrygof/DocMemo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Harrygof/DocMemo) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07006) | `ECF` | Beihang University | Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models? | [![GitHub Stars](https://img.shields.io/github/stars/wjkuser/ECF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/wjkuser/ECF) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04424) | `ADOPD 2026` | Georgia Tech | Thinking with Anchors: Grounded and Efficient Document Reasoning | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/collections/adopd/thinking-with-anchors) [![GitHub Stars](https://img.shields.io/github/stars/SichenZhu/ADOPD2026?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/SichenZhu/ADOPD2026) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04726) | `VTS` | MBZUAI | When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04452) | `Q-CueGraph` | The University of Tokyo | Q-CueGraph: Query-Conditioned Visual Evidence Graphs for Multimodal Reasoning | - | Aug. 2026 |
