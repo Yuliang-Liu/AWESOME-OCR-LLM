@@ -1,23 +1,26 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-11)
-
-### Document Parsing
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07917) | `TongGuOCR` | SCUT | TongGuOCR: A Layout-Aware and Token-Augmented OCR Framework for Chinese Historical Documents | [![GitHub Stars](https://img.shields.io/github/stars/jzzh2004/TongGuOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jzzh2004/TongGuOCR) | Aug. 2026 |
-
-> **TongGuOCR** — A layout-aware and token-augmented OCR framework for Chinese historical documents that builds locally coherent recognition blocks and augments transcription with character-level vocabulary expansion plus line-to-line displacement tokens, achieving 93.76 AR on the M5HisDoc benchmark.
+## 🔭 Daily Papers (2026-08-12)
 
 ### Document Understanding
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07527) | `DocAtlas` | Wuhan University / Microsoft | DocAtlas: Long-Document Understanding as Mutable-State Interaction | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10636) | `DistilVDR` | Aalto University | DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation | [![GitHub Stars](https://img.shields.io/github/stars/Ryenhails/NanoVDR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ryenhails/NanoVDR) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10628) | `InSight-doc` | HKUST | InSight-doc: Agentic Visual Perception for Long-Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/m-Just/InSight-doc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/m-Just/InSight-doc) | Aug. 2026 |
 
-> **DocAtlas** — Treats long-document understanding as mutable-state interaction through a document harness with search, reading, note-taking, and review tools under a fixed context budget.
+> **DistilVDR** — A 524M end-to-end visual document retriever obtained by independent cosine distillation of both encoders from a single 8B vision-language teacher under an asymmetric encoder-only design.
+> 
+> **InSight-doc** — An agentic visual perception framework that treats visual resolution as an adaptive reasoning-time resource, zooming from low resolution into high-resolution evidence regions via SFT+RL to improve document VQA accuracy while cutting hallucination by over 40% and latency by 41%-68% on long documents.
+
+### Benchmarks & Evaluation
+
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10396) | `FormStruct-Bench` | CUHK-Shenzhen | FormStruct-Bench: A Hierarchical and Diagnostic Benchmark for Table-Form Document Structure Recognition | - | Aug. 2026 |
+
+> **FormStruct-Bench** — A hierarchical and diagnostic benchmark that evaluates table-form document structure recognition at both the document level and progressively finer component levels, allowing aggregate performance to be traced back to specific structural failure modes.
 
 ##
 
@@ -71,6 +74,7 @@ Document parsing focuses on converting visually complex documents into structure
 
 |                                                                 Venue                                                                  |         Name          |          Primary affiliation          |                                                               Title                                                               |                                                                                                                                                             GitHub                                                                                                                                                             |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07917) | `TongGuOCR` | SCUT | TongGuOCR: A Layout-Aware and Token-Augmented OCR Framework for Chinese Historical Documents | [![GitHub Stars](https://img.shields.io/github/stars/jzzh2004/TongGuOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jzzh2004/TongGuOCR) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.06146) | `PaDoc` | Tsinghua University | PaDoc: Layout-Grounded Parallel Decoding for Document Parsing | [![GitHub Stars](https://img.shields.io/github/stars/Longin-Yu/Padoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Longin-Yu/Padoc) | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.00096"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `Logographic Pretraining` | QMUL | Logographic Character Visual Pretraining via Semantic-based Contrastive Learning | - | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.02109"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `SPIRAL` | SEU | Same Semantics, Different Paths: Self-Improving Alignment for Vision-Text Compression | [![GitHub Stars](https://img.shields.io/github/stars/Tianyu-Liang-seu/SPIRAL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tianyu-Liang-seu/SPIRAL) | Aug. 2026 |
@@ -129,6 +133,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07527) | `DocAtlas` | Wuhan University / Microsoft | DocAtlas: Long-Document Understanding as Mutable-State Interaction | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07067) | `DocMemo` | HIT, Shenzhen | DocMemo: Dynamic Evidence Discovery via Probabilistic Memory-Guided Retrieval for Multi-Modal Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/Harrygof/DocMemo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Harrygof/DocMemo) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07006) | `ECF` | Beihang University | Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models? | [![GitHub Stars](https://img.shields.io/github/stars/wjkuser/ECF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/wjkuser/ECF) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04424) | `ADOPD 2026` | Georgia Tech | Thinking with Anchors: Grounded and Efficient Document Reasoning | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/collections/adopd/thinking-with-anchors) [![GitHub Stars](https://img.shields.io/github/stars/SichenZhu/ADOPD2026?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/SichenZhu/ADOPD2026) | Aug. 2026 |
