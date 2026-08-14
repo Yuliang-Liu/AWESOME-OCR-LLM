@@ -1,16 +1,23 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-12)
+## 🔭 Daily Papers (2026-08-14)
+
+### Document Parsing
+
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12898) | `NaviDC-OCR` | China Telecom AI | NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents | - | Aug. 2026 |
+
+> **NaviDC-OCR** — A unified VLM-based document parsing framework that handles both digital and camera-captured documents via deformation-aware learning for geometric perception, adaptive sampling for complex layouts, and content-structure decoupled learning for formula grammar and table structures.
 
 ### Document Understanding
 
-| Venue                                                                                        | Name    | Primary affiliation | Title                                                                                            | GitHub                                                                                                                                                        | Date      |
-|:--------------------------------------------------------------------------------------------:|:-------:|:-------------------:|:------------------------------------------------------------------------------------------------ |:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
-| <a href="https://arxiv.org/abs/2608.11741"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `JieZi` | SCUT                | JieZi: A Large-Scale Expert-Audited Dataset and Benchmark for Ancient Chinese Character Exegesis | [![GitHub Stars](https://img.shields.io/github/stars/Ran00w/JieZi?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ran00w/JieZi) | Aug. 2026 |
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| <a href="https://arxiv.org/abs/2608.12911"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `DRUF` | Shenzhen MSU-BIT University | Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs | [![GitHub Stars](https://img.shields.io/github/stars/xubeining/Beyond-Visual-Evidence?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xubeining/Beyond-Visual-Evidence) | Aug. 2026 |
 
-> **JieZi** — Formalizes Ancient Chinese Character Exegesis (ACCE) as a four-level vision-language QA task (identification, glyph-form analysis, meaning exegesis, diachronic evolution), with JieZi-Dataset (500K expert-audited QA pairs) and scholar-curated JieZi-Bench.
-
+> **DRUF** — A dynamic relational unlearning framework that mitigates relation-level privacy leakage by suppressing the joint generation of high-risk sensitive field pairs and dynamically updating forgetting targets according to the model’s current leakage behavior, while preserving normal document extraction utility.
 ##
 
 
@@ -488,6 +495,7 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 |                                                                 Venue                                                                  |          Benchmark Name          |                                                                                                                                                                                                     Description                                                                                                                                                                                                      |                                                                                                                                                                        Link                                                                                                                                                                         |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| <a href="https://arxiv.org/abs/2608.11741"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `JieZi` | Formalizes Ancient Chinese Character Exegesis (ACCE) as a four-level vision-language QA task (identification, glyph-form analysis, meaning exegesis, diachronic evolution), with JieZi-Dataset (500K expert-audited QA pairs) and scholar-curated JieZi-Bench. | [![GitHub Stars](https://img.shields.io/github/stars/Ran00w/JieZi?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ran00w/JieZi) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10396) | `FormStruct-Bench` |A hierarchical and diagnostic benchmark that evaluates table-form document structure recognition at both the document level and progressively finer component levels, allowing aggregate performance to be traced back to specific structural failure modes.| - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03464) | `ChartAnno` | A benchmark for evaluating MLLMs on chart annotation generation. It contains 1,200 real-world charts with paired code and annotation instructions across three levels of instruction specificity. | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03884) | `BanglaWild` | The first in-the-wild Bengali scene text recognition benchmark to pair dual verbatim/standard annotation with evaluation of both conventional OCR and generative VLMs on the same data.| - | Aug. 2026 |
