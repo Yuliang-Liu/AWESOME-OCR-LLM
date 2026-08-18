@@ -1,23 +1,51 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-14)
-
-### Document Parsing
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12898) | `NaviDC-OCR` | China Telecom AI | NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents | - | Aug. 2026 |
-
-> **NaviDC-OCR** — A unified VLM-based document parsing framework that handles both digital and camera-captured documents via deformation-aware learning for geometric perception, adaptive sampling for complex layouts, and content-structure decoupled learning for formula grammar and table structures.
+## 🔭 Daily Papers (2026-08-17)
 
 ### Document Understanding
 
+|                                                                 Venue                                                                  | Name | Primary affiliation | Title | GitHub | Date |
+|:--------------------------------------------------------------------------------------------------------------------------------------:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.15698) | `ConceptFormer` | Northeastern University | ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval | [![GitHub Stars](https://img.shields.io/github/stars/Neuir/ConceptFormer?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Neuir/ConceptFormer) | Aug. 2026 |
+|                      <a href="https://arxiv.org/abs/2608.16628"><img src="./figs/ACM-MM-logo.jpg" width="80"></a>                      | `Hyper-M2RAG` | Hangzhou Dianzi University | Hypergraph-based Multimodal Retrieval-Augmented Generation with Incremental Refinement | [![GitHub Stars](https://img.shields.io/github/stars/ShenAoChen2001/MMHRAG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ShenAoChen2001/MMHRAG) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.14841) | `Trident` | Emory University | What the Reranker Sees: Multi-Aspect Page Annotation for Long-Document Multimodal Question Answering | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.16417) | `D2-ScaleAgent` | Zhejiang University | D2-ScaleAgent: Dual-Dimensional Scaling for Long Document Understanding | - | Aug. 2026 |
+|                       <a href="https://arxiv.org/abs/2608.15962"><img src="./figs/COLM-logo.png" width="80"></a>                       | `SEER` | UT Austin | SEER: Long-Context Reasoning via Selective Visual-Text Compression | [![GitHub Stars](https://img.shields.io/github/stars/jiaweixu98/SEER?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jiaweixu98/SEER) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.14032) | `HAM-RAG` | HKUST | HAM-RAG: Hierarchy-Aware Multimodal RAG for Structure-Faithful Interleaved Generation | [![GitHub Stars](https://img.shields.io/github/stars/MCCodeAI/HAM-RAG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/MCCodeAI/HAM-RAG) | Aug. 2026 |
+
+> **ConceptFormer** — A latent concept representation learning framework for visual document retrieval that models query-relevant evidence as continuous, query-conditioned latent concepts bridging localized visual evidence and semantic relevance, achieving 16.7% and 22.1% relative NDCG@10 improvements over the strongest visual and OCR-based text retrieval baselines.
+>
+> **Hyper-M2RAG** — A multimodal document retrieval framework that formalizes documents as multimodal hypergraphs with unified semantic hyperedges and an anchor-driven incremental refinement that reconstructs local hyper-topology around cross-page boundary anchors, significantly outperforming SOTA in both retrieval precision and generation coherence.
+>
+> **Trident** — A retriever-agnostic LLM reranker (Trident-R) that converts each candidate page into an LLM-readable semantic record with visual captions, section paths, entity tags and multi-axis concept hits, plus a generation-side module (Trident-S) that prompts the VLM under topical, entity and structural lenses, substantially improving retrieval F1 and adding up to 6.6 points in generation accuracy on long-document multimodal QA.
+>
+> **D2-ScaleAgent** — An agentic framework that introduces dual-dimensional scaling for retrieval and reasoning in multimodal RAG, with a Verifier-driven dynamic routing loop around an evidence-bank working memory, expanding retrieval outward and reasoning inward based on query difficulty, effective on MMLongBench-Doc and LongDocURL.
+>
+> **SEER** — A framework that learns to select query-relevant images through visual scanning and retrieve textual content only where needed, combining the efficiency of visual-text compression with the precision of text-based reasoning; on LongBench it reaches 51.11% accuracy, outperforming Glyph-9B by 2.33 points and Qwen3-8B by 3.49 points.
+>
+> **HAM-RAG** — A hierarchy-aware multimodal RAG framework that uses document hierarchy as a grounding signal across retrieval and generation, preserving source position and local text-image relations to improve faithful image selection and placement.
+
+### Visual Text Generation
+
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| <a href="https://arxiv.org/abs/2608.12911"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `DRUF` | Shenzhen MSU-BIT University | Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs | [![GitHub Stars](https://img.shields.io/github/stars/xubeining/Beyond-Visual-Evidence?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xubeining/Beyond-Visual-Evidence) | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.16289) | `PosterText` | Wuhan University | PosterText: Towards Unified Visual Text Generation and Editing for E-commerce Poster | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.16284) | `TransAnyText` | Wuhan University | TransAnyText: Translating Arbitrary Text in E-commerce Images via Structured Visual Generation | - | Aug. 2026 |
 
-> **DRUF** — A dynamic relational unlearning framework that mitigates relation-level privacy leakage by suppressing the joint generation of high-risk sensitive field pairs and dynamically updating forgetting targets according to the model’s current leakage behavior, while preserving normal document extraction utility.
+> **PosterText** — A unified model for e-commerce poster generation and editing that treats text patches as atomic units covering generation, patch addition, deletion and modification, trained with a four-stage curriculum of text rendering pretraining, instruction following, RL preference alignment and spatial guidance self-distillation.
+>
+> **TransAnyText** — A structured visual code framework that reformulates image text translation as generating renderable HTML patches, decoupling semantic generation (VLM) from pixel rendering (diffusion + deterministic rendering), and introducing TransAnyDataset and TransAnyBench for multilingual e-commerce image translation.
+
+
+### Benchmarks & Evaluation
+
+| Venue | Name | Primary affiliation | Title | GitHub | Date |
+|:-----:|:----:|:-------------------:|:------|:------:|:----:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.15064) | `LongDocBench` | Ant Group | LongDocBench: Benchmarking TOC Hierarchy and Contextual Relationship Recovery in Long Documents | - | Aug. 2026 |
+
+> **LongDocBench** — A benchmark for two document-level structure recovery tasks — Table-of-Contents Hierarchy Recovery and Contextual Relationship Recovery — built on 85 real-world financial reports, textbooks and academic papers spanning 2,582 pages with human-verified annotations for 3,937 heading nodes and 3,258 contextual relationships, showing that representative document parsers remain limited on both recovery tasks despite strong page-level performance.
+
 ##
 
 
@@ -70,6 +98,7 @@ Document parsing focuses on converting visually complex documents into structure
 
 |                                                                 Venue                                                                  |         Name          |          Primary affiliation          |                                                               Title                                                               |                                                                                                                                                             GitHub                                                                                                                                                             |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12898) | `NaviDC-OCR` | China Telecom AI | NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07917) | `TongGuOCR` | SCUT | TongGuOCR: A Layout-Aware and Token-Augmented OCR Framework for Chinese Historical Documents | [![GitHub Stars](https://img.shields.io/github/stars/jzzh2004/TongGuOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jzzh2004/TongGuOCR) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.06146) | `PaDoc` | Tsinghua University | PaDoc: Layout-Grounded Parallel Decoding for Document Parsing | [![GitHub Stars](https://img.shields.io/github/stars/Longin-Yu/Padoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Longin-Yu/Padoc) | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.00096"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `Logographic Pretraining` | QMUL | Logographic Character Visual Pretraining via Semantic-based Contrastive Learning | - | Aug. 2026 |
@@ -129,6 +158,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| <a href="https://arxiv.org/abs/2608.12911"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `DRUF` | Shenzhen MSU-BIT University | Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs | [![GitHub Stars](https://img.shields.io/github/stars/xubeining/Beyond-Visual-Evidence?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xubeining/Beyond-Visual-Evidence) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10636) | `DistilVDR` | Aalto University | DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation | [![GitHub Stars](https://img.shields.io/github/stars/Ryenhails/NanoVDR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ryenhails/NanoVDR) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10628) | `InSight-doc` | HKUST | InSight-doc: Agentic Visual Perception for Long-Document Understanding | [![GitHub Stars](https://img.shields.io/github/stars/m-Just/InSight-doc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/m-Just/InSight-doc) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07527) | `DocAtlas` | Wuhan University / Microsoft | DocAtlas: Long-Document Understanding as Mutable-State Interaction | - | Aug. 2026 |
