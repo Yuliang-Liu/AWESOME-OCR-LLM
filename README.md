@@ -1,22 +1,14 @@
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-08-25)
+## 🔭 Daily Papers (2026-08-26)
 
-### Document Parsing
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.22842) | `FinixDoc` | Ant Group | FinixDoc: Rethinking Financial Document Parsing Beyond Saturated Benchmarks | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/inclusionAI/FinixDocBench) | Aug. 2026 |
-
-> **FinixDoc** — An end-to-end agentic financial document parsing system built on FinixDoc-VL (4B, Qwen3-VL), trained with homoglyph-aware contrastive learning and multi-stage RL; it tops FinixDocBench with 81.43, beating the next-best open-source model by 5.13 points.
-
-### Benchmarks and Evaluation
+### Document Understanding
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.22959) | `WildHandBench` | Baidu | WildHandBench: A Benchmark for Handwritten Text Understanding that Challenges MLLMs and Humans | - | Aug. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.24011) | `SAGE` | Fudan University | SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding | - | Aug. 2026 |
 
-> **WildHandBench** — A handwritten document understanding benchmark of 500 documents spanning free text, tables and formulas in 4 languages, with a Prior-Driven Error metric showing the best MLLM (71.85%) trails calibrated humans (77.09%) while 63--91% of model errors stem from language priors.
+> **SAGE** — An evidence-grounded multi-agent framework that reframes Chinese ancient document understanding as evidence-grounded inference instead of direct answering, coordinating specialized agents for task-aware planning, tool-mediated evidence acquisition, claim-level verification and bounded replanning; SAGE with Qwen3.5-9B surpasses much larger monolithic LVLMs on the AncientDoc benchmark.
 
 ## 📖 Contents
 
@@ -125,6 +117,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.24011) | `SAGE` | Fudan University | SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.19739) | `Q-Guide` | Amazon | Question-Guided Evidence Acquisition for Multimodal Visual Question Answering | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.18685) | `DocClaw` | NTU | DocClaw: A Unified Agentic System for Intelligent Document Processing | [![GitHub Stars](https://img.shields.io/github/stars/sxiangag/DocClaw?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/sxiangag/DocClaw) | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.15698) | `ConceptFormer` | Northeastern University | ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval | [![GitHub Stars](https://img.shields.io/github/stars/Neuir/ConceptFormer?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Neuir/ConceptFormer) | Aug. 2026 |
