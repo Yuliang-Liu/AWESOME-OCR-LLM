@@ -1,36 +1,20 @@
-
-
-
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-09-03)
+## 🔭 Daily Papers (2026-09-04)
 
-### Document Understanding
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.02486) | `ViSAR` | INSA Lyon | ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering | - | Sep. 2026 |
-
-> **ViSAR** — Training-free adaptive-k retrieval that dynamically decides how many document pages to feed an LVLM per query, cutting DocVQA RAG latency by up to 58.7% while maintaining or improving answer accuracy.
-
-### Visual Text Generation
+### Document Parsing
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.02349) | `GlyphAnchor` | Fudan University | GlyphAnchor: Enhancing Visual Text Rendering via Position-Anchored Glyph Priors | - | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03181) | `Jina-OCR-v1` | Jina AI | Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/jinaai/jina-ocr-v1) | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03445) | `OCR-EDR` | Tencent | OCR-EDR: Rendering-Aware Diagnosis and Repair for Closed-Loop OCR Improvement | - | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03595) | `Wayu-Paxa-OCR-Zero` | Wayu Research | How Far Can Synthetic Data Take Thai OCR? | - | Sep. 2026 |
 
-> **GlyphAnchor** — Boosts text fidelity of text-to-image and editing diffusion transformers via lightweight position-anchored glyph patch conditions, especially for long, dense and rare-character text, and releases the InfoTextBench evaluation.
-
-### Benchmarks and Evaluation
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| <a href="https://arxiv.org/abs/2609.02059"><img src="./figs/ICML-logo.png" width="80"></a> | `DocHop` | University of Wisconsin-Madison | DocHop: Benchmarking Out-of-domain Multi-hop Reasoning in Information-Dense Documents | - | Sep. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.02255) | `T2LSC-Bench` | CUC | T2LSC-Bench: Benchmarking Localized Semantic Control in Text-to-Image Generation | [![GitHub Stars](https://img.shields.io/github/stars/LLMSecResearch/T2LSC-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/LLMSecResearch/T2LSC-Bench) | Sep. 2026 |
-
-> **DocHop** — A benchmark for multi-hop chart-context reasoning in document-style images (2,074 logic-first examples): the best MLLM reaches 62.8% accuracy vs. over 90% for humans.
+> **Jina-OCR-v1** — An end-to-end document parser built for low-budget GPUs, combining DeepSeek-OCR's compressed vision encoder and 3B MoE decoder with FastMTP speculative decoding and GRPO over dense verifiable rewards.
 >
-> **T2LSC-Bench** — A 7,160-image diagnostic benchmark for localized semantic control in text-to-image generation, showing accurate text rendering does not prevent semantic leakage (SLR up to 18.1% under stress while TAA stays near 91%).
+> **OCR-EDR** — A rendering-aware diagnosis-and-repair framework that checks editable OCR predictions against their rendered images, localizes genuine errors, and iteratively corrects them to visual consistency.
+>
+> **Wayu-Paxa-OCR-Zero** — A Thai OCR model adapted from 0.9B PaddleOCR-VL-1.6 with synthetic-only pages (45,723 generated samples), guided by a factor-wise study of what makes synthetic supervision transfer to real documents.
 
 ## 📖 Contents
 
@@ -81,6 +65,9 @@ Document parsing focuses on converting visually complex documents into structure
 
 |                                                                 Venue                                                                  |         Name          |          Primary affiliation          |                                                               Title                                                               |                                                                                                                                                             GitHub                                                                                                                                                             |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03181) | `Jina-OCR-v1` | Jina AI | Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/jinaai/jina-ocr-v1) | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03445) | `OCR-EDR` | Tencent | OCR-EDR: Rendering-Aware Diagnosis and Repair for Closed-Loop OCR Improvement | - | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03595) | `Wayu-Paxa-OCR-Zero` | Wayu Research | How Far Can Synthetic Data Take Thai OCR? | - | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.28698) | `SCVER` | Fudan University | State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models | - | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.22842) | `FinixDoc` | Ant Group | FinixDoc: Rethinking Financial Document Parsing Beyond Saturated Benchmarks | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/inclusionAI/FinixDocBench) | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.20868"><img src="./figs/ICDAR-logo.png" width="80"></a> | `SmolDocling-KV-Link` | IBM | Identify, Locate, Link: End-to-End Key-Value Extraction from Document Images | - | Aug. 2026 |
@@ -128,9 +115,6 @@ Document parsing focuses on converting visually complex documents into structure
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09677) | `Logics-Parsing-Omni` |                Alibaba                |                                               Logics-Parsing-Omni Technical Report                                                |                                                       [![GitHub Stars](https://img.shields.io/github/stars/alibaba/Logics-Parsing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alibaba/Logics-Parsing/tree/master/Logics-Parsing-Omni)                                                        | Mar. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.11044) |   `Agentar-Fin-OCR`   |               Ant Group               |                                                          Agentar-Fin-OCR                                                          |                                                                                                                                                               -                                                                                                                                                                | Mar. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.24326) |    `PaddleOCR-VL`     |                 Baidu                 |                    Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing                     |                                                                       [![GitHub Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/PaddlePaddle/PaddleOCR)                                                                        | Mar. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.16872) |        `DODO`         |           Amazon & Technion           |                                                DODO: Discrete OCR Diffusion Models                                                |                                                                                                                                                               -                                                                                                                                                                | Feb. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.12957) |         `HSD`         |                 SCUT                  |           Training-Free Acceleration for Document Parsing Vision-Language Model with Hierarchical Speculative Decoding            |                                                                                                                                                               -                                                                                                                                                                | Feb. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.06402) |       `MeDocVL`       |           Ping An Property            |                          MeDocVL: A Visual Language Model for Medical Document Understanding and Parsing                          |                                                                            [![GitHub Stars](https://img.shields.io/github/stars/Dejavuvvw/MeDocVL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Dejavuvvw/MeDocVL)                                                                             | Feb. 2026 |
 > 📄 See full list at [Document-Parsing.md](./full-lists/Document-Parsing.md)
 
 ## 📄 Document Understanding
@@ -189,7 +173,6 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 | <a href="https://arxiv.org/abs/2605.11864"><img src="./figs/ICML-logo.png" width="80"></a> | `ZipRerank` | Magellan Technology Research Institute | Very Efficient Listwise Multimodal Reranking for Long Documents | [![GitHub Stars](https://img.shields.io/github/stars/dukesun99/ZipRerank?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dukesun99/ZipRerank) | May. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.16371) |    `GeoSym127K`     |   SenseTime Research & CUHK Shenzhen    |                   GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning                   |                                                                          [![GitHub Stars](https://img.shields.io/github/stars/Tomie56/GeoSym127K?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tomie56/GeoSym127K)                                                                           | May. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.05409) |   `FinAgent-RAG`    |           Zhejiang University           |                       Agentic Retrieval-Augmented Generation for Financial Document Question Answering                        |                                                                 [![GitHub Stars](https://img.shields.io/github/stars/cheer932041235/FinAgent-RAG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/cheer932041235/FinAgent-RAG)                                                                  | May. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.24938) |       `SMART`       |               UW-Madison                |                                        Your Embedding Model is SMARTer Than You Think                                         |                                                                           [![GitHub Stars](https://img.shields.io/github/stars/HanSolo9682/SMART?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HanSolo9682/SMART)                                                                            | May. 2026 |
 > 📄 See full list at [Document-Understanding.md](./full-lists/Document-Understanding.md)
 
 ## 📄 Visual Text Generation
