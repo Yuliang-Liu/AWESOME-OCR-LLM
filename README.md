@@ -1,23 +1,15 @@
 
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-09-18)
+## 🔭 Daily Papers (2026-09-21)
 
 ### Document Parsing
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.20423) | `WeVisDoc` | Tencent | WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Tencent/WeVisDoc-4B) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/WeVisDoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tencent/WeVisDoc) | Sep. 2026 |
+| <a href="https://arxiv.org/abs/2609.21351"><img src="./figs/EMNLP-logo.png" width="80"></a> | `PrismAlign` |        Huawei       | PrismAlign: Prior-Steered Multi-View VLM Alignment for Hallucination-Robust Table OCR |    -   | Sep. 2026 |
 
-> **WeVisDoc** — A two-stage data-centric framework for robust end-to-end document parsing that broadens semantic, structural and appearance coverage of the training corpus, then targets the parser's residual errors diagnosed within visual-structural clusters.
-
-### Benchmarks and Evaluation
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.20574) | `DocAttriBench` | Univ. Modena e Reggio Emilia | DocAttriBench: Benchmarking Answer Grounding in Document Visual Question Answering | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/collections/aimagelab/docattribench) [![GitHub Stars](https://img.shields.io/github/stars/aimagelab/DocAttriBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/aimagelab/DocAttriBench) | Sep. 2026 |
-
-> **DocAttriBench** — A large-scale Document VQA benchmark for element-level answer attribution, whose grounding labels are auto-derived by masking layout elements and measuring the perplexity increase each one causes.
+> **PrismAlign** — A multi-VLM framework for hallucination-robust table OCR that aligns diverse visual perspectives, scores output plausibility with table-logic priors, and decouples structural from cell-content alignment.
 
 ## 📖 Contents
 
@@ -68,6 +60,7 @@ Document parsing focuses on converting visually complex documents into structure
 
 |                                                                 Venue                                                                  |         Name          |          Primary affiliation          |                                                               Title                                                               |                                                                                                                                                             GitHub                                                                                                                                                             |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| <a href="https://arxiv.org/abs/2609.21351"><img src="./figs/EMNLP-logo.png" width="80"></a> | `PrismAlign` |        Huawei       | PrismAlign: Prior-Steered Multi-View VLM Alignment for Hallucination-Robust Table OCR |    -   | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.20423) | `WeVisDoc` | Tencent | WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Tencent/WeVisDoc-4B) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/WeVisDoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tencent/WeVisDoc) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03181) | `Jina-OCR-v1` | Jina AI | Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/jinaai/jina-ocr-v1) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03445) | `OCR-EDR` | Tencent | OCR-EDR: Rendering-Aware Diagnosis and Repair for Closed-Loop OCR Improvement | - | Sep. 2026 |
@@ -117,7 +110,6 @@ Document parsing focuses on converting visually complex documents into structure
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.24134) |     `AgenticOCR`      | Shanghai AI Laboratory & OpenDataLab  |                        AgenticOCR: Parsing Only What You Need for Efficient Retrieval-Augmented Generation                        |                                                                       [![GitHub Stars](https://img.shields.io/github/stars/OpenDataLab/AgenticOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/OpenDataLab/AgenticOCR)                                                                        | Mar. 2026 |
 |                       <a href="https://arxiv.org/abs/2603.15206"><img src="./figs/CVPR-logo.jpg" width="80"></a>                       |         `PTP`         |                Tencent                |                                     Efficient Document Parsing via Parallel Token Prediction                                      |                                                                                                                                                               -                                                                                                                                                                | Mar. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09677) | `Logics-Parsing-Omni` |                Alibaba                |                                               Logics-Parsing-Omni Technical Report                                                |                                                       [![GitHub Stars](https://img.shields.io/github/stars/alibaba/Logics-Parsing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alibaba/Logics-Parsing/tree/master/Logics-Parsing-Omni)                                                        | Mar. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.11044) |   `Agentar-Fin-OCR`   |               Ant Group               |                                                          Agentar-Fin-OCR                                                          |                                                                                                                                                               -                                                                                                                                                                | Mar. 2026 |
 > 📄 See full list at [Document-Parsing.md](./full-lists/Document-Parsing.md)
 
 ## 📄 Document Understanding
