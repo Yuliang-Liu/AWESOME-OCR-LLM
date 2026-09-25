@@ -1,30 +1,15 @@
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-09-24)
+## 🔭 Daily Papers (2026-09-25)
 
 ### Document Parsing
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.26638) | `GravityOCR` | Trillion Labs | Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/trillionlabs/GravityOCR) [![GitHub Stars](https://img.shields.io/github/stars/trillion-labs/GravityOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/trillion-labs/GravityOCR) | Sep. 2026 |
+| - | `Logics-Parsing-V3` | Alibaba | Logics-Parsing-V3: Structure-Aware Recurrent Parsing for Long Documents | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Logics-MLLM/Logics-Parsing-V3) [![GitHub Stars](https://img.shields.io/github/stars/alibaba/Logics-Parsing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alibaba/Logics-Parsing) | Sep. 2026 |
 
-> **GravityOCR** — A parameter-shared AR-block-diffusion OCR model that drafts tokens in parallel and verifies them with its own causal autoregressive path, committing multiple output tokens per decoding round.
+> **Logics-Parsing-V3** — An open-source 0.8B document parser that carries a structured state (open title paths, recently closed headings, cross-page continuation tails) across page windows, so a long document is reconstructed as one continuous document tree instead of a pile of disconnected pages.
 
-### Document Understanding
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24220) | `D-RAC` | Yellow.ai | Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion | - | Sep. 2026 |
-
-> **D-RAC** — An ingestion framework that normalizes any enterprise document format into PDF and converts it to multimodal Markdown chunks, preserving reading order, tables and heading hierarchy for retrieval.
-
-### Specialized Model / Scene Text Understanding
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24058) | `ScriptMoE` | Fudan University | All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/Yesianrohn/TextMuSS-10M) [![GitHub Stars](https://img.shields.io/github/stars/YesianRohn/ScriptMoE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/YesianRohn/ScriptMoE) | Sep. 2026 |
-
-> **ScriptMoE** — An all-in-one multilingual scene text recognizer that routes inputs to script-aware mixture-of-experts paths, trained on a large synthetic corpus that provides balanced supervision across many scripts.
 
 ## 📖 Contents
 
@@ -75,6 +60,7 @@ Document parsing focuses on converting visually complex documents into structure
 
 |                                                                 Venue                                                                  |         Name          |          Primary affiliation          |                                                               Title                                                               |                                                                                                                                                             GitHub                                                                                                                                                             |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| - | `Logics-Parsing-V3` | Alibaba | Logics-Parsing-V3: Structure-Aware Recurrent Parsing for Long Documents | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Logics-MLLM/Logics-Parsing-V3) [![GitHub Stars](https://img.shields.io/github/stars/alibaba/Logics-Parsing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alibaba/Logics-Parsing) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.26638) | `GravityOCR` | Trillion Labs | Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/trillionlabs/GravityOCR) [![GitHub Stars](https://img.shields.io/github/stars/trillion-labs/GravityOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/trillion-labs/GravityOCR) | Sep. 2026 |
 | <a href="https://arxiv.org/abs/2609.21351"><img src="./figs/EMNLP-logo.png" width="80"></a> | `PrismAlign` |        Huawei       | PrismAlign: Prior-Steered Multi-View VLM Alignment for Hallucination-Robust Table OCR |    -   | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.20423) | `WeVisDoc` | Tencent | WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Tencent/WeVisDoc-4B) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/WeVisDoc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Tencent/WeVisDoc) | Sep. 2026 |
@@ -124,7 +110,6 @@ Document parsing focuses on converting visually complex documents into structure
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2603.13032) |      `dots.mocr`      |                 HUST                  |                                           Multimodal OCR: Parse Anything from Documents                                           |                                                                      [![GitHub Stars](https://img.shields.io/github/stars/rednote-hilab/dots.mocr?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/rednote-hilab/dots.mocr)                                                                       | Mar. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.01840) |     `FireRed-OCR`     |            Xiaohongshu Inc            |                                                   FireRed-OCR Technical Report                                                    |                                                                      [![GitHub Stars](https://img.shields.io/github/stars/FireRedTeam/FireRed-OCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/FireRedTeam/FireRed-OCR)                                                                       | Mar. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.24134) |     `AgenticOCR`      | Shanghai AI Laboratory & OpenDataLab  |                        AgenticOCR: Parsing Only What You Need for Efficient Retrieval-Augmented Generation                        |                                                                       [![GitHub Stars](https://img.shields.io/github/stars/OpenDataLab/AgenticOCR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/OpenDataLab/AgenticOCR)                                                                        | Mar. 2026 |
-|                       <a href="https://arxiv.org/abs/2603.15206"><img src="./figs/CVPR-logo.jpg" width="80"></a>                       |         `PTP`         |                Tencent                |                                     Efficient Document Parsing via Parallel Token Prediction                                      |                                                                                                                                                               -                                                                                                                                                                | Mar. 2026 |
 > 📄 See full list at [Document-Parsing.md](./full-lists/Document-Parsing.md)
 
 ## 📄 Document Understanding
