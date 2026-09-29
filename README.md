@@ -1,15 +1,15 @@
+
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-09-25)
+## 🔭 Daily Papers (2026-09-29)
 
-### Document Parsing
+### Document Understanding
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| - | `Logics-Parsing-V3` | Alibaba | Logics-Parsing-V3: Structure-Aware Recurrent Parsing for Long Documents | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Logics-MLLM/Logics-Parsing-V3) [![GitHub Stars](https://img.shields.io/github/stars/alibaba/Logics-Parsing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alibaba/Logics-Parsing) | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.32660) | `InterTab` | HKUST | InterTab: Interleaved Visual-Structure Alignment for Multi-Modal Table Reasoning | - | Sep. 2026 |
 
-> **Logics-Parsing-V3** — An open-source 0.8B document parser that carries a structured state (open title paths, recently closed headings, cross-page continuation tails) across page windows, so a long document is reconstructed as one continuous document tree instead of a pile of disconnected pages.
-
+> **InterTab** — A structure-aware table reasoning framework that interleaves chain-of-thought with tool calls cropping structure-aligned table regions, so every reasoning step is bound to a row, column or cell of the table image instead of a single one-shot encoding.
 
 ## 📖 Contents
 
@@ -118,6 +118,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.32660) | `InterTab` | HKUST | InterTab: Interleaved Visual-Structure Alignment for Multi-Modal Table Reasoning | - | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24220) | `D-RAC` | Yellow.ai | Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion | - | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24071) | `Chart-RVR` | University of Virginia | Monitorable Chart Reasoning Agents via Verifiable Process Rewards | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/sanchit97/chart-rvr-3b) [![GitHub Stars](https://img.shields.io/github/stars/sanchit97/chartrl?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/sanchit97/chartrl) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.02486) | `ViSAR` | INSA Lyon | ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering | - | Sep. 2026 |
@@ -167,7 +168,6 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.12576) |      `MINARD`       |         University of Maryland          |            Helping Figures Tell their Story! Paper-Grounded Video Generation Explaining Complex Scientific Figures            |                                                                                                                                                              -                                                                                                                                                               | Jun. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.04231) |     `MM-BizRAG`     |          JPMorgan Chase & Co.           |              MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A               |                                                                                                                                                              -                                                                                                                                                               | Jun. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.28780) |       `KG4VD`       |       National Taiwan University        |                           Multimodal Graph RAG for Long-range Visually Rich Document Understanding                            |                                                    [![GitHub Stars](https://img.shields.io/github/stars/AI-Application-and-Integration-Lab/KG4VD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/AI-Application-and-Integration-Lab/KG4VD)                                                     | Jun. 2026 |
-| <a href="https://arxiv.org/abs/2605.11864"><img src="./figs/ICML-logo.png" width="80"></a> | `ZipRerank` | Magellan Technology Research Institute | Very Efficient Listwise Multimodal Reranking for Long Documents | [![GitHub Stars](https://img.shields.io/github/stars/dukesun99/ZipRerank?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dukesun99/ZipRerank) | May. 2026 |
 > 📄 See full list at [Document-Understanding.md](./full-lists/Document-Understanding.md)
 
 ## 📄 Visual Text Generation
