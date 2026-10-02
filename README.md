@@ -1,33 +1,15 @@
+
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-09-30)
-
-### Document Parsing
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.37712) | `PolyOCR-Venus` | Ant Group | PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence | - | Sep. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.36136) | `Xiaomi-OCR-0` | Xiaomi | Xiaomi-OCR-0 Technical Report | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/spaces/SeerRay-Lab/Xiaomi-OCR-0) | Sep. 2026 |
-
-> **PolyOCR-Venus** — A unified OCR foundation model family that handles recognition, parsing and reasoning together, trained with competence-guided policy optimization that routes between verifier-based rewards and on-policy distillation.
->
-> **Xiaomi-OCR-0** — A compact OCR-centric vision-language model that supports document parsing and OCR-centric understanding in one model, trained via text-anchoring pretraining and mixed-task reinforcement learning over an automatically verified corpus.
-
-### Visual Text Generation
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.37569) | `IDSpect` | Fudan University | Decompose Radicals, Then Reward: Fine-Grained Inspection for Accurate Chinese Text Rendering | - | Sep. 2026 |
-
-> **IDSpect** — A fine-grained reward for Chinese text rendering that scores rendered glyphs by their ideographic-description-sequence components, so a generator is credited for radical correctness and spatial relations instead of whole-character similarity.
+## 🔭 Daily Papers (2026-10-02)
 
 ### Benchmarks and Evaluation
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.37287) | `VISTA-Bench` | Tencent | VISTA-Bench: Benchmarking Multilingual Image Translation with Image-Specific Rubrics | [![GitHub Stars](https://img.shields.io/github/stars/lvbotenbest/VISTA-BENCH?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/lvbotenbest/VISTA-BENCH) | Sep. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.01499) | `VTR-Bench` | CityU | VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation | [![GitHub Stars](https://img.shields.io/github/stars/hardenyu21/VTR-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/hardenyu21/VTR-Bench) | Oct. 2026 |
 
-> **VISTA-Bench** — A multilingual image-translation benchmark that pairs broad language and domain coverage with image-specific rubrics, scoring translation quality separately from the preservation of visual and knowledge-dependent information.
+> **VTR-Bench** — A systematic benchmark that situates text in concrete video-generation scenarios and automatically scores visual text rendering, exposing an overlooked failure mode of generative video models.
 
 ## 📖 Contents
 
@@ -501,6 +483,7 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 |                                                                 Venue                                                                  |          Benchmark Name          |                                                                                                                                                                                                     Description                                                                                                                                                                                                      |                                                                                                                                                                        Link                                                                                                                                                                         |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.01499) | `VTR-Bench` | A systematic benchmark that situates text in concrete video-generation scenarios and automatically scores visual text rendering, exposing an overlooked failure mode of generative video models. | [![GitHub Stars](https://img.shields.io/github/stars/hardenyu21/VTR-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/hardenyu21/VTR-Bench) | Oct. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.37287) | `VISTA-Bench` | A multilingual image-translation benchmark that pairs broad language and domain coverage with image-specific rubrics, scoring translation quality separately from the preservation of visual and knowledge-dependent information. | [![GitHub Stars](https://img.shields.io/github/stars/lvbotenbest/VISTA-BENCH?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/lvbotenbest/VISTA-BENCH) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.20574) | `DocAttriBench` | A large-scale Document VQA benchmark for element-level answer attribution, whose grounding labels are auto-derived by masking layout elements and measuring the perplexity increase each one causes. | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/collections/aimagelab/docattribench) [![GitHub Stars](https://img.shields.io/github/stars/aimagelab/DocAttriBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/aimagelab/DocAttriBench) | Sep. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.13158) | `TestHallVQA` | A multi-image VQA benchmark built from scientific exams that combines document-level scale with examination difficulty and allows controllable injection of multi-level contextual redundancy, together with a metric that jointly measures reasoning capability and evidence-retrieval robustness. | [![GitHub Stars](https://img.shields.io/github/stars/yqyu2317/TestHallVQA-benchmark?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yqyu2317/TestHallVQA-benchmark) | Sep. 2026 |
@@ -530,7 +513,6 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.01328) |   `LongChart Bench`   | A new pipeline and benchmark designed to evaluate MLLMs’ visual reasoning and performance in multi-chart settings with complex computational relationships. | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.00036) |     `XL-DocBench`     | A fully human-verified benchmark for extra-long document understanding, with 1,519 retained questions from six professional domains and contexts up to 2,303 pages. | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.29677) | `ExtractBench` | The first benchmark for schema-guided enterprise document extraction that jointly scores value accuracy, record completeness at scale, grounding, and measured cost.| [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/llamaindex/ExtractBench) [![GitHub Stars](https://img.shields.io/github/stars/run-llama/ExtractBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/run-llama/ExtractBench) | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21617) | `FaithC4` |A controlled multilingual perturbation benchmark for measuring transcription faithfulness in VLMs, and use it to evaluate 15 systems across English, Chinese, and Korean.| - | Jul. 2026 |
 > 📄 See full list at [Benchmarks-and-Evaluation.md](./full-lists/Benchmarks-and-Evaluation.md)
 ## Contributing
 
