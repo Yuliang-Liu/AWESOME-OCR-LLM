@@ -1,26 +1,14 @@
-
-
-
-
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-10-23)
+## 🔭 Daily Papers (2026-10-26)
 
-### Document Understanding
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.31385) | `Long-Document VQA Survey` | Zhejiang University | A Task-Centric Survey of Long-Document Visual Question Answering: Taxonomy, Evolution, and Future Directions | [![GitHub Stars](https://img.shields.io/github/stars/yufeiTongZJU/Long-Document-VQA-Survey?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yufeiTongZJU/Long-Document-VQA-Survey) | Oct. 2026 |
-
-> **Long-Document VQA Survey** — A task-centric survey of long-document visual question answering that organizes the field by task bottlenecks (parsing, evidence organization, generator learning, evaluation) and traces how techniques evolved in response.
-
-### Visual Text Generation
+### Benchmarks and Evaluation
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.30888) | `Logics-PPT` | Alibaba, Peking University | Building Presentation Intelligence for High-Quality Slide Generation | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/Logics-MLLM/Logics-PPT-Qwen3.6-27B-RL) | Oct. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.32221) | `RxnExBench` | Shanghai AI Laboratory | RxnExBench: Benchmarking Vision-Language Models for Structured Chemical Reaction Extraction from Scientific Literature | [![GitHub Stars](https://img.shields.io/github/stars/opendatalab/RxnExBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/opendatalab/RxnExBench) | Oct. 2026 |
 
-> **Logics-PPT** — A unified training framework for automatic PowerPoint generation that couples cross-validated data synthesis, teacher enhancement and verifiable aesthetic rewards, optimizing slide-level visual quality beyond text-only supervision.
+> **RxnExBench** — A multimodal benchmark for fine-grained reaction-level extraction from screen tables and substrate-scope figures in chemistry literature, pairing a unified reaction schema and difficulty taxonomy with a protocol that separates molecular recognition from chemistry reasoning.
 
 ## 📖 Contents
 
@@ -494,6 +482,7 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 |                                                                 Venue                                                                  |          Benchmark Name          |                                                                                                                                                                                                     Description                                                                                                                                                                                                      |                                                                                                                                                                        Link                                                                                                                                                                         |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.32221) | `RxnExBench` | A multimodal benchmark for fine-grained reaction-level extraction from screen tables and substrate-scope figures in chemistry literature, pairing a unified reaction schema and difficulty taxonomy with a protocol that separates molecular recognition from chemistry reasoning. | [![GitHub Stars](https://img.shields.io/github/stars/opendatalab/RxnExBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/opendatalab/RxnExBench) | Oct. 2026 |
 | <a href="https://arxiv.org/abs/2610.27087"><img src="./figs/EMNLP-logo.png" width="80"></a> | `SciFigBench` | A benchmark probing dense content perception, visual relation comprehension and information-flow tracing in scientific method figures, paired with a training-free visual prompting module. | [![GitHub Stars](https://img.shields.io/github/stars/LeNcyer/SciFigBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/LeNcyer/SciFigBench) | Oct. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.20964) | `VELD-QA` | Couples human-authored questions with page- and element-level visual evidence annotations over real-world PDFs, so that evidence localization and visual interpretation failures in long-document QA can be diagnosed separately. | [![GitHub Stars](https://img.shields.io/github/stars/oracle-samples/veld-qa?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/oracle-samples/veld-qa) | Oct. 2026 |
 | <a href="https://arxiv.org/abs/2610.17057"><img src="./figs/NeurIPS-logo.png" width="80"></a> | `VL-DocIR` | A page-level benchmark for evidence-complete visual long-document retrieval, covering single-page, within-document multi-page and cross-document evidence configurations. | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/anonymous-8421/VL-DocIR) [![GitHub Stars](https://img.shields.io/github/stars/yufanchen96/VL-DocIR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yufanchen96/VL-DocIR) | Oct. 2026 |
@@ -523,7 +512,6 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.17895) | `BEAR-Bench` | A self-contained bilingual (English and Russian) benchmark of 1,000 human-annotated reasoning questions over text-rich business and scientific documents. | - | Aug. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.15064) | `LongDocBench` | A benchmark for two document-level structure recovery tasks — Table-of-Contents Hierarchy Recovery and Contextual Relationship Recovery — built on 85 real-world financial reports, textbooks and academic papers spanning 2,582 pages with human-verified annotations for 3,937 heading nodes and 3,258 contextual relationships, showing that representative document parsers remain limited on both recovery tasks despite strong page-level performance. | - | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.11741"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `JieZi` | Formalizes Ancient Chinese Character Exegesis (ACCE) as a four-level vision-language QA task (identification, glyph-form analysis, meaning exegesis, diachronic evolution), with JieZi-Dataset (500K expert-audited QA pairs) and scholar-curated JieZi-Bench. | [![GitHub Stars](https://img.shields.io/github/stars/Ran00w/JieZi?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ran00w/JieZi) | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.10396) | `FormStruct-Bench` |A hierarchical and diagnostic benchmark that evaluates table-form document structure recognition at both the document level and progressively finer component levels, allowing aggregate performance to be traced back to specific structural failure modes.| - | Aug. 2026 |
 > 📄 See full list at [Benchmarks-and-Evaluation.md](./full-lists/Benchmarks-and-Evaluation.md)
 ## Contributing
 
