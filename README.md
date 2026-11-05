@@ -2,25 +2,18 @@
 
 
 
+
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-11-04)
+## 🔭 Daily Papers (2026-11-05)
 
-### Document Parsing
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.04874) | `OCR-FM-Survey` | CASIA | OCR in the Foundation Model Era: From Specialist Models to Unified Models | [![GitHub Stars](https://img.shields.io/github/stars/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era) | Nov. 2026 |
-
-> **OCR-FM-Survey** — A survey recasting OCR as verifiable faithful transcription, grouping systems into modular toolkits, document VLMs, hybrid workflows, general VLMs and commercial services, while cataloguing hallucination, weak grounding and evaluation gaps.
-
-### Visual Text Generation
+### Benchmarks and Evaluation
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.04303) | `FlowTranslator` | Fudan University | FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing | - | Nov. 2026 |
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.06449) | `AmbiHTMLBench` | SJTU | AmbiHTMLBench: A Benchmark for HTML-based Visually Rich Document parsing | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/Theseus-Lab/AmbiHTMLBench) [![GitHub Stars](https://img.shields.io/github/stars/theseus-labs-rsi/AmbiHTMLBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/theseus-labs-rsi/AmbiHTMLBench) | Nov. 2026 |
 
-> **FlowTranslator** — A training-free in-image translation framework that reuses a text-to-image diffusion editor, drafting translation prompts from OCR and an LLM and steering noise trajectories so replacement glyphs stay accurate while the surrounding scene remains intact.
+> **AmbiHTMLBench** — A document-to-HTML benchmark that scores parsers on rendered-block alignment, table fidelity and layout consistency, complementing objective scoring with an LLM-judge protocol anchored to human preference.
 
 ## 📖 Contents
 
@@ -494,6 +487,7 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 
 |                                                                 Venue                                                                  |          Benchmark Name          |                                                                                                                                                                                                     Description                                                                                                                                                                                                      |                                                                                                                                                                        Link                                                                                                                                                                         |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.06449) | `AmbiHTMLBench` | A document-to-HTML benchmark that scores parsers on rendered-block alignment, table fidelity and layout consistency, complementing objective scoring with an LLM-judge protocol anchored to human preference. | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/Theseus-Lab/AmbiHTMLBench) [![GitHub Stars](https://img.shields.io/github/stars/theseus-labs-rsi/AmbiHTMLBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/theseus-labs-rsi/AmbiHTMLBench) | Nov. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.36929) | `DocXEval` | The first explainability benchmark for multimodal document understanding, adapting XAI methods and metrics to text-layout-image models and meta-evaluating which faithfulness metrics can actually be trusted across tasks, datasets and entity types. | [![GitHub Stars](https://img.shields.io/github/stars/saifullah3396/docxeval?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/saifullah3396/docxeval) | Oct. 2026 |
 | - | `JevOCRBench` | A benchmark for OCR correctness decisions: given a document crop, an OCR candidate and its render, a verifier must judge whether the transcription is faithful across text, formulas and tables. | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/openbmb/JevOCRBench) | Oct. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.32221) | `RxnExBench` | A multimodal benchmark for fine-grained reaction-level extraction from screen tables and substrate-scope figures in chemistry literature, pairing a unified reaction schema and difficulty taxonomy with a protocol that separates molecular recognition from chemistry reasoning. | [![GitHub Stars](https://img.shields.io/github/stars/opendatalab/RxnExBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/opendatalab/RxnExBench) | Oct. 2026 |
@@ -523,7 +517,6 @@ Benchmarks play a critical role in shaping the evolution of OCR in the LLM era.
 | <a href="https://arxiv.org/abs/2608.18591"><img src="./figs/COLM-logo.png" width="80"></a> | `BudgetDoc` | The first multimodal benchmark with explicit supervision for model-budget-performance trade-offs on document tasks, plus DRB, a 1B-parameter pre-flight estimator that matches or improves F1 in 9 of 15 configurations while drastically cutting reasoning cost. | - | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.18586"><img src="./figs/CIKM-logo.png" width="80"></a> | `OmniHandwritingOCR` | A diagnostic benchmark for handwritten OCR spanning HTR and HMER across six subtasks and twelve subsets (77.57K images), with difficulty-stratified multi-line formulas exposing sharp degradation and hallucinated corrections in current MLLMs. | - | Aug. 2026 |
 | <a href="https://arxiv.org/abs/2608.17550"><img src="./figs/ACM-MM-logo.jpg" width="80"></a> | `CADP` | Propose a compilable academic document parsing paradigm (CADP), and introduces CADP-Bench, an expert-verified benchmark evaluated through a re-injection compilation protocol. | [![GitHub Stars](https://img.shields.io/github/stars/AriKing11/CADP-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/AriKing11/CADP-Bench) | Aug. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.17895) | `BEAR-Bench` | A self-contained bilingual (English and Russian) benchmark of 1,000 human-annotated reasoning questions over text-rich business and scientific documents. | - | Aug. 2026 |
 > 📄 See full list at [Benchmarks-and-Evaluation.md](./full-lists/Benchmarks-and-Evaluation.md)
 ## Contributing
 
