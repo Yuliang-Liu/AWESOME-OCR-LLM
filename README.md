@@ -4,25 +4,18 @@
 
 
 
+
 <a id="daily-papers-section"></a>
 
-## 🔭 Daily Papers (2026-11-10)
+## 🔭 Daily Papers (2026-11-11)
 
 ### Document Understanding
 
 | Venue | Name | Primary affiliation | Title | GitHub | Date |
 |:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.10642) | `VisProve` | UCAS | VisProve: Learning Typed Visual Provenance for Scientific Document Question Answering | - | Nov. 2026 |
+| <a href="https://arxiv.org/abs/2611.13675"><img src="./figs/NeurIPS-logo.png" width="80"></a> | `OpticalRAG` | RUC | OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation | [![GitHub Stars](https://img.shields.io/github/stars/brighterr/OpticalRAG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/brighterr/OpticalRAG) | Nov. 2026 |
 
-> **VisProve** — A framework that couples scientific-document question answering with typed visual provenance, generating answers alongside localized source regions and their support relations while conditioning decoding on spatially grounded evidence.
-
-### Visual Text Generation
-
-| Venue | Name | Primary affiliation | Title | GitHub | Date |
-|:-----:|:----:|:-------------------:|:------|:------:|:----:|
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.12042) | `Four-Step TextDistill` | Tsinghua University | Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training | - | Nov. 2026 |
-
-> **Four-Step TextDistill** — A few-step distillation framework for text-bearing image generation that combines local response regularization with teacher-guided text training, preserving glyph fidelity and scene-integrated typography within a short sampling trajectory.
+> **OpticalRAG** — A document RAG framework that renders pages as images and distils retrieved visual tokens into a short query-conditioned prefix with a frozen vision encoder, avoiding cross-modal training.
 
 ## 📖 Contents
 
@@ -131,6 +124,7 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 
 |                                                                 Venue                                                                  |        Name         |           Primary affiliation           |                                                             Title                                                             |                                                                                                                                                            GitHub                                                                                                                                                            |   Date    |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+| <a href="https://arxiv.org/abs/2611.13675"><img src="./figs/NeurIPS-logo.png" width="80"></a> | `OpticalRAG` | RUC | OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation | [![GitHub Stars](https://img.shields.io/github/stars/brighterr/OpticalRAG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/brighterr/OpticalRAG) | Nov. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.10642) | `VisProve` | UCAS | VisProve: Learning Typed Visual Provenance for Scientific Document Question Answering | - | Nov. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.03097) | `DR Pixel` | NYU Shanghai | DR Pixel: Page-Native Deep Research with Vision-Language Models | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/HughieHu/drpixel-bench) [![GitHub Stars](https://img.shields.io/github/stars/StarTrail-org/DRPixel?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/StarTrail-org/DRPixel) | Nov. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.02826) | `RxnMiner` | DP Technology | RxnMiner: A Multimodal Agent for Structured Reaction Data Extraction from Chemistry Figures | [![HuggingFace](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/UniParser/RxnMiner-Benchmark) [![GitHub Stars](https://img.shields.io/github/stars/rxnminer/RxnMiner?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/rxnminer/RxnMiner) | Nov. 2026 |
@@ -180,7 +174,6 @@ Document understanding extends beyond structural parsing to semantic comprehensi
 |                       <a href="https://arxiv.org/abs/2607.05927"><img src="./figs/ECCV-logo.svg" width="80"></a>                       |       `CMDR`        |                   NTT                   |                                        CMDR: Contextual Multimodal Document Retrieval                                         | [![HuggingFace Stars](https://img.shields.io/badge/HuggingFace-Link-yellow)](https://huggingface.co/datasets/NTT-hil-insight/CMDR-Synth) [![GitHub Stars](https://img.shields.io/github/stars/nttmdlab-nlp/CMDR-Bench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/nttmdlab-nlp/CMDR-Bench) | Jul. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04625) |     `HiEvi-RAG`     |                  USTC                   |                            Hierarchical Evidence-Driven Reasoning for Long Document Understanding                             |                                                                                                                                                              -                                                                                                                                                               | Jul. 2026 |
 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.01420) |  `MultAttnAttrib`   |                    —                    |                   MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering                    |                                                                                                                                                              -                                                                                                                                                               | Jul. 2026 |
-| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.25906) |  `OracleAnalyser`   |                  NUDT                   |             OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training              |                                                                                                                                                              -                                                                                                                                                               | Jun. 2026 |
 > 📄 See full list at [Document-Understanding.md](./full-lists/Document-Understanding.md)
 
 ## 📄 Visual Text Generation
